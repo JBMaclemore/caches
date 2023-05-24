@@ -1,0 +1,133 @@
+.elementor-kit-1165{--e-global-color-primary:#385DFF;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-50bfecf:#FFFFFF;--e-global-color-b1f9e64:#FCFCFC;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-1165 e-page-transition{background-color:#FFBC7D;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */.bpolls-options-attach-container {
+  margin-top: 20px;
+}
+.bpolls-options-attach-items {
+  margin-bottom: 5px;
+}
+.bpolls-item {
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.buddyboss-theme .bpolls-item .bpolls-check-radio-wrap .bpolls-option-lbl {
+  font-size: 14px;
+}
+
+.bpolls-item-inner {
+  width: 100%;
+}
+.bpolls-item .bpolls-result-votes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  float: right;
+}
+.buddyboss-theme .bpolls-item .bpolls-check-radio-wrap {
+  font-size: 12px;
+}
+.bpolls-check-radio-wrap {
+  margin: 0 0 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+.bpolls-check-radio-wrap .bpolls-option-lbl {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: #3a3a3a;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.bpolls-item-width-wrapper {
+  position: relative;
+}
+.bpolls-item-width {
+  position: absolute;
+  background-color: #4caf50;
+  height: 100%;
+  border-radius: 50px !important;
+}
+.bpolls-check-radio-div {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+  height: 13px;
+  border-radius: 50px !important;
+}
+.bpolls-percent {
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3a3a3a;
+  text-align: right;
+  display: block;
+}
+#buddypress ul.item-list li img.avatar {
+  margin: 0;
+}
+.bpolls-item .bpolls-result-votes .bpolls-post-voted img, .bpolls-item .bpolls-result-votes .bpolls-post-voted .bp-polls-view-all {
+  margin: 0;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  outline: 3px solid #fff;
+  display: inline-block;
+  border-radius: 100% !important;
+  -webkit-border-radius: 100% !important;
+  -moz-border-radius: 100% !important;
+  -ms-border-radius: 100% !important;
+  -o-border-radius: 100% !important;
+}
+.bpolls-item .bpolls-result-votes .bp-polls-voters {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+.bpolls-vote-submit {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  margin: 0;
+  padding: 7px 20px;
+  color: #4caf50 !important;
+  text-decoration: none;
+  border-radius: 4px !important;
+  background: #fff;
+  border: 2px solid #4caf50 !important;
+    border-top-color: rgb(76, 175, 80);
+    border-right-color: rgb(76, 175, 80);
+    border-bottom-color: rgb(76, 175, 80);
+    border-left-color: rgb(76, 175, 80);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.bpolls-vote-submit:hover, .bpolls-vote-submit:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #3a3a3a !important;
+  -webkit-transform: translateY(-0.1em);
+  -ms-transform: translateY(-0.1em);
+  transform: translateY(-0.1em);
+}/* End custom CSS */

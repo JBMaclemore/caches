@@ -1,0 +1,122 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress WP Ulike Integration\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2019-07-22 16:08+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: gamipress-wp-ulike.php:132
+#, php-format
+msgid "GamiPress - WP Ulike integration requires %s and %s in order to work. Please install and activate them."
+msgstr ""
+
+#: includes/admin.php:22
+msgid "WP Ulike integration"
+msgstr ""
+
+#: includes/triggers.php:21
+msgid "WP Ulike"
+msgstr ""
+
+#: includes/triggers.php:24
+msgid "Like anything"
+msgstr ""
+
+#: includes/triggers.php:25
+msgid "Like a post"
+msgstr ""
+
+#: includes/triggers.php:26
+msgid "Like a comment"
+msgstr ""
+
+#: includes/triggers.php:28
+msgid "Get a like anywhere"
+msgstr ""
+
+#: includes/triggers.php:29
+msgid "Get a like on a post"
+msgstr ""
+
+#: includes/triggers.php:30
+msgid "Get a like on a comment"
+msgstr ""
+
+#: includes/triggers.php:32
+msgid "Unlike anything"
+msgstr ""
+
+#: includes/triggers.php:33
+msgid "Unlike a post"
+msgstr ""
+
+#: includes/triggers.php:34
+msgid "Unlike a comment"
+msgstr ""
+
+#: includes/triggers.php:36
+msgid "Get an unlike anywhere"
+msgstr ""
+
+#: includes/triggers.php:37
+msgid "Get an unlike on a post"
+msgstr ""
+
+#: includes/triggers.php:38
+msgid "Get an unlike on a comment"
+msgstr ""
+
+#: includes/triggers.php:44
+msgid "WP Ulike and BuddyPress"
+msgstr ""
+
+#: includes/triggers.php:47
+msgid "Like an activity"
+msgstr ""
+
+#: includes/triggers.php:49
+msgid "Get a like on an activity"
+msgstr ""
+
+#: includes/triggers.php:51
+msgid "Unlike an activity"
+msgstr ""
+
+#: includes/triggers.php:53
+msgid "Get an unlike on an activity"
+msgstr ""
+
+#: includes/triggers.php:60
+msgid "WP Ulike and bbPress"
+msgstr ""
+
+#: includes/triggers.php:63
+msgid "Like a topic"
+msgstr ""
+
+#: includes/triggers.php:65
+msgid "Get a like on a topic"
+msgstr ""
+
+#: includes/triggers.php:67
+msgid "Unlike a topic"
+msgstr ""
+
+#: includes/triggers.php:69
+msgid "Get an unlike on a topic"
+msgstr ""

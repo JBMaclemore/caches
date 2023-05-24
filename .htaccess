@@ -1,0 +1,70 @@
+# BEGIN LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+<IfModule LiteSpeed>
+RewriteEngine on
+CacheLookup on
+RewriteRule .* - [E=Cache-Control:no-autoflush]
+RewriteRule \.litespeed_conf\.dat - [F,L]
+
+### marker CACHE RESOURCE start ###
+RewriteRule wp-content/.*/[^/]*(responsive|css|js|dynamic|loader|fonts)\.php - [E=cache-control:max-age=3600]
+### marker CACHE RESOURCE end ###
+
+### marker LOGIN COOKIE start ###
+RewriteRule .? - [E=Cache-Vary:_caches_vary]
+### marker LOGIN COOKIE end ###
+
+### marker FAVICON start ###
+RewriteRule favicon\.ico$ - [E=cache-control:max-age=86400]
+### marker FAVICON end ###
+
+### marker WEBP start ###
+RewriteCond %{HTTP_ACCEPT} "image/webp"
+RewriteRule .* - [E=Cache-Control:vary=%{ENV:LSCACHE_VARY_VALUE}+webp]
+RewriteCond %{HTTP_USER_AGENT} iPhone.*Version/(\d{2}).*Safari
+RewriteCond %1 >13
+RewriteRule .* - [E=Cache-Control:vary=%{ENV:LSCACHE_VARY_VALUE}+webp]
+### marker WEBP end ###
+
+### marker DROPQS start ###
+CacheKeyModify -qs:fbclid
+CacheKeyModify -qs:gclid
+CacheKeyModify -qs:utm*
+CacheKeyModify -qs:_ga
+### marker DROPQS end ###
+
+</IfModule>
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END LSCACHE
+# BEGIN NON_LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END NON_LSCACHE
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# Catch Woff2 with no expires headers
+# Set up caching on font files for 6 months (60 * 60 * 24 * 180 = 15724800)
+<filesMatch ".([eE][oO][tT]|[tT][tT][fF]|[sS][vV][gG]|[Ww][Oo][Ff][Ff]|[Ww][Oo][Ff][Ff]2)$">
+   ExpiresDefault A15724800
+   Header append Cache-Control "public"
+</filesMatch>
+
+## Prevent file extensions
+#RewriteRule ^/.*\.(log|ini|bak|bk)$ - [F,L]
+#RewriteCond %{REQUEST_URI} error_log|wp-config-sample.php|readme.html|readme.txt|license.txt|install.php|wp-config.php|README.txt|README.md|readme.md|license.txt|LICENSE.txt|LICENSE|README|README.md|LICENSE.md|license.md|changelog.txt|CHANGELOG.txt|changelog-old.txt|changelog.md|CHANGELOG.md [NC]
+#RewriteRule .* - [F,L]

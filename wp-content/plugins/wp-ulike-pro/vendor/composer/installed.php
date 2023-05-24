@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-develop',
+        'version' => 'dev-develop',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '10ddc07a66bc1ad9b6fadd51799f2a5e19c16831',
+        'name' => '__root__',
+        'dev' => false,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '10ddc07a66bc1ad9b6fadd51799f2a5e19c16831',
+            'dev_requirement' => false,
+        ),
+        'robthree/twofactorauth' => array(
+            'pretty_version' => '1.8.2',
+            'version' => '1.8.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../robthree/twofactorauth',
+            'aliases' => array(),
+            'reference' => '65681de5a324eae05140ac58b08648a60212afc0',
+            'dev_requirement' => false,
+        ),
+        'spatie/schema-org' => array(
+            'pretty_version' => '3.10.0',
+            'version' => '3.10.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../spatie/schema-org',
+            'aliases' => array(),
+            'reference' => 'a1639a32fcb5c70d86100fda1d4e18874af22faf',
+            'dev_requirement' => false,
+        ),
+    ),
+);

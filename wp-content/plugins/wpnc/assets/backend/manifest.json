@@ -1,0 +1,96 @@
+{
+  "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Regular.woff2": {
+    "file": "assets/Inter-Regular-d612f121.woff2",
+    "src": "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Regular.woff2"
+  },
+  "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Medium.woff2": {
+    "file": "assets/Inter-Medium-1b498b95.woff2",
+    "src": "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Medium.woff2"
+  },
+  "../node_modules/primevue/resources/images/color.png": {
+    "file": "assets/color-473bc8ca.png",
+    "src": "../node_modules/primevue/resources/images/color.png"
+  },
+  "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-SemiBold.woff2": {
+    "file": "assets/Inter-SemiBold-15226129.woff2",
+    "src": "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-SemiBold.woff2"
+  },
+  "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Bold.woff2": {
+    "file": "assets/Inter-Bold-c63158ba.woff2",
+    "src": "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Bold.woff2"
+  },
+  "../node_modules/primeicons/fonts/primeicons.eot": {
+    "file": "assets/primeicons-ce852338.eot",
+    "src": "../node_modules/primeicons/fonts/primeicons.eot"
+  },
+  "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Light.woff2": {
+    "file": "assets/Inter-Light-36b86832.woff2",
+    "src": "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Light.woff2"
+  },
+  "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Regular.woff": {
+    "file": "assets/Inter-Regular-ef1f23c0.woff",
+    "src": "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Regular.woff"
+  },
+  "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Medium.woff": {
+    "file": "assets/Inter-Medium-53deda46.woff",
+    "src": "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Medium.woff"
+  },
+  "../node_modules/primeicons/fonts/primeicons.woff2": {
+    "file": "assets/primeicons-3824be50.woff2",
+    "src": "../node_modules/primeicons/fonts/primeicons.woff2"
+  },
+  "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-SemiBold.woff": {
+    "file": "assets/Inter-SemiBold-653fed7a.woff",
+    "src": "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-SemiBold.woff"
+  },
+  "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Bold.woff": {
+    "file": "assets/Inter-Bold-3e242080.woff",
+    "src": "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Bold.woff"
+  },
+  "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Light.woff": {
+    "file": "assets/Inter-Light-4871aed0.woff",
+    "src": "../node_modules/primevue/resources/themes/tailwind-light/fonts/Inter-Light.woff"
+  },
+  "../node_modules/primeicons/fonts/primeicons.woff": {
+    "file": "assets/primeicons-90a58d3a.woff",
+    "src": "../node_modules/primeicons/fonts/primeicons.woff"
+  },
+  "../node_modules/primeicons/fonts/primeicons.ttf": {
+    "file": "assets/primeicons-131bc3bf.ttf",
+    "src": "../node_modules/primeicons/fonts/primeicons.ttf"
+  },
+  "../node_modules/primeicons/fonts/primeicons.svg": {
+    "file": "assets/primeicons-5e10f102.svg",
+    "src": "../node_modules/primeicons/fonts/primeicons.svg"
+  },
+  "main.css": {
+    "file": "assets/main-f58cc2a2.css",
+    "src": "main.css"
+  },
+  "main.ts": {
+    "file": "assets/main-6ee08d78.js",
+    "src": "main.ts",
+    "isEntry": true,
+    "css": [
+      "assets/main-f58cc2a2.css"
+    ],
+    "assets": [
+      "assets/color-473bc8ca.png",
+      "assets/primeicons-ce852338.eot",
+      "assets/primeicons-3824be50.woff2",
+      "assets/primeicons-90a58d3a.woff",
+      "assets/primeicons-131bc3bf.ttf",
+      "assets/primeicons-5e10f102.svg",
+      "assets/Inter-Light-36b86832.woff2",
+      "assets/Inter-Light-4871aed0.woff",
+      "assets/Inter-Regular-d612f121.woff2",
+      "assets/Inter-Regular-ef1f23c0.woff",
+      "assets/Inter-Medium-1b498b95.woff2",
+      "assets/Inter-Medium-53deda46.woff",
+      "assets/Inter-SemiBold-15226129.woff2",
+      "assets/Inter-SemiBold-653fed7a.woff",
+      "assets/Inter-Bold-c63158ba.woff2",
+      "assets/Inter-Bold-3e242080.woff"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+.bbl-field-type-gallery-wrap {
+    padding: 0 0 0 10px;
+}
+
+.bbl-field-type-gallery-wrap ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.bbl-field-type-gallery-wrap ul li.bbl-gallery-media-item {
+    width: 80px;
+    cursor: move;
+    border: 1px solid #d5d5d5;
+    margin: 9px 9px 0 0;
+    background: #f7f7f7;
+    border-radius: 2px;
+    position: relative;
+    box-sizing: border-box;
+}
+.bbl-field-type-gallery-wrap ul li.bbl-gallery-media-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.bbl-field-type-gallery-wrap .add-bblpro-gallery-images {
+    padding: 0 12px 12px;
+}
+.bbl-field-type-gallery-wrap a.delete {
+    position: absolute;
+    top: 0;
+    right: 6px;
+    text-decoration: none;
+    background: none;
+}

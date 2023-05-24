@@ -1,0 +1,4678 @@
+# Copyright (C) 2023 All in One SEO Team
+# This file is distributed under the same license as the All in One SEO Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: All in One SEO Pro 4.3.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/all-in-one-seo-pack-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-08T17:13:32+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: aioseo-pro\n"
+
+#. Plugin Name of the plugin
+msgid "All in One SEO Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://aioseo.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "SEO for WordPress. Features like XML Sitemaps, SEO for custom post types, SEO for blogs, business sites, ecommerce sites, and much more. More than 100 million downloads since 2007."
+msgstr ""
+
+#. Author of the plugin
+msgid "All in One SEO Team"
+msgstr ""
+
+#: app/Pro/Admin/Admin.php:48
+#: app/Pro/Admin/Admin.php:116
+#: app/Pro/Admin/NetworkAdmin.php:55
+msgid "Add License Key"
+msgstr ""
+
+#: app/Pro/Admin/Admin.php:175
+msgid "Edit SEO"
+msgstr ""
+
+#. Translators: 1 - "AIOSEO Pro"
+#: app/Pro/Admin/AutoUpdates.php:181
+msgid "Enable the %1$s plugin to manage auto-updates"
+msgstr ""
+
+#: app/Pro/Admin/AutoUpdates.php:189
+msgid "Manage auto-updates"
+msgstr ""
+
+#: app/Pro/Admin/License.php:142
+msgid "Your License is expired and your SEO is at risk!"
+msgstr ""
+
+#. Translators: 1 - "Pro", 2 - The plugin name ("All in One SEO"), 3 - Opening bold tag, 4 - Closing bold tag.
+#: app/Pro/Admin/License.php:145
+#: app/Pro/Admin/License.php:395
+msgid "An active license is needed to use any of the %1$s features of %2$s, including %3$sVideo and News sitemaps, Redirection Manager, Breadcrumb Templates%4$s and more. It also provides access to new features & addons, plugin updates (including security improvements), and our world class support!"
+msgstr ""
+
+#: app/Pro/Admin/License.php:153
+#: app/Pro/Admin/License.php:399
+msgid "Renew Now"
+msgstr ""
+
+#: app/Pro/Admin/License.php:155
+#: app/Pro/Admin/License.php:400
+msgid "Learn More"
+msgstr ""
+
+#. Translators: 1 - Opening link tag, 2 - Closing link tag, 4 - The plugin name ("All in One SEO").
+#: app/Pro/Admin/License.php:352
+msgid "Please %1$senter and activate%2$s your license key for %3$s to enable automatic updates."
+msgstr ""
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Pro/Admin/License.php:389
+msgid "Heads up! Your %1$s license has expired and your SEO is at risk!"
+msgstr ""
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Pro/Admin/License.php:414
+msgid "Your license key for %1$s has been disabled. Please use a different key to continue receiving automatic updates."
+msgstr ""
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Pro/Admin/License.php:431
+msgid "Your license key for %1$s is invalid. The key no longer exists or the user associated with the key has been deleted. Please use a different key to continue receiving automatic updates."
+msgstr ""
+
+#: app/Pro/Admin/License.php:435
+#: app/Pro/Admin/License.php:538
+msgid "Manage Licenses"
+msgstr ""
+
+#. Translators: 1 - Opening HTML bold tag, 2 - Closing HTML bold tag, 3 - The plugin name ("All in One SEO").
+#: app/Pro/Admin/License.php:467
+msgid "A %1$svalid license key%2$s is required to download updates for %3$s."
+msgstr ""
+
+#: app/Pro/Admin/License.php:497
+msgid "has not been entered"
+msgstr ""
+
+#: app/Pro/Admin/License.php:509
+msgid "is expired"
+msgstr ""
+
+#: app/Pro/Admin/License.php:512
+msgid "is disabled"
+msgstr ""
+
+#: app/Pro/Admin/License.php:515
+msgid "is invalid"
+msgstr ""
+
+#. Translators: 1 - HTML Line break tags, 2 - "Pro", 3 - Opening bold tag, 4 - Closing bold tag, 5 - HTML Line break tags.
+#: app/Pro/Admin/License.php:520
+msgid "and your SEO is at risk!%1$sAn active license is needed to use any of the %2$s features including %3$sVideo and News sitemaps, Redirection Manager, Breadcrumb Templates%4$s and more. It also provides access to new features & addons, plugin updates (including security improvements), and our world class support! %5$s"
+msgstr ""
+
+#: app/Pro/Admin/License.php:530
+msgid "Your"
+msgstr ""
+
+#: app/Pro/Admin/License.php:531
+msgid "license key"
+msgstr ""
+
+#: app/Pro/Admin/License.php:542
+msgid "Purchase one now."
+msgstr ""
+
+#: app/Pro/Admin/Notices/Notices.php:121
+msgid "Local Business Organization"
+msgstr ""
+
+#: app/Pro/Admin/Notices/Notices.php:122
+msgid "Your site is currently set to represent a Person. In order to use Local Business schema, you must set your site to represent an Organization."
+msgstr ""
+
+#: app/Pro/Admin/Notices/Notices.php:125
+#: app/Pro/Admin/Notices/Notices.php:175
+#: app/Pro/ImportExport/LocalBusiness.php:60
+#: app/Pro/ImportExport/LocalBusiness.php:106
+#: app/Pro/ImportExport/YoastSeo/LocalBusiness.php:102
+#: app/Pro/ImportExport/YoastSeo/LocalBusiness.php:145
+#: app/Pro/ImportExport/YoastSeo/LocalBusiness.php:218
+#: app/Pro/Migration/LocalBusiness.php:102
+#: app/Pro/Migration/LocalBusiness.php:141
+msgid "Fix Now"
+msgstr ""
+
+#: app/Pro/Admin/Notices/Notices.php:127
+#: app/Pro/Admin/Notices/Notices.php:177
+#: app/Pro/Api/Wizard.php:100
+#: app/Pro/ImportExport/LocalBusiness.php:62
+#: app/Pro/ImportExport/LocalBusiness.php:108
+#: app/Pro/ImportExport/YoastSeo/LocalBusiness.php:104
+#: app/Pro/ImportExport/YoastSeo/LocalBusiness.php:147
+#: app/Pro/ImportExport/YoastSeo/LocalBusiness.php:220
+#: app/Pro/Migration/LocalBusiness.php:104
+#: app/Pro/Migration/LocalBusiness.php:143
+#: app/Pro/Migration/Migration.php:304
+msgid "Remind Me Later"
+msgstr ""
+
+#: app/Pro/Admin/Notices/Notices.php:167
+msgid "News Sitemap Publication Name"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Pro/Admin/Notices/Notices.php:170
+msgid "You have not set the Google News Publication Name or the Site Title. %1$s requires at least one of these for the Google News sitemap to be valid."
+msgstr ""
+
+#. Translators: 1 - "WooCommerce".
+#: app/Pro/Admin/Notices/Notices.php:212
+msgid "Advanced %1$s Support"
+msgstr ""
+
+#. Translators: 1 - "WooCommerce", 2 - The plugin short name ("AIOSEO").
+#: app/Pro/Admin/Notices/Notices.php:214
+msgid "We have detected you are running %1$s. Upgrade to %2$s to unlock our advanced eCommerce SEO features, including SEO for Product Categories and more."
+msgstr ""
+
+#. Translators: 1 - "Pro".
+#: app/Pro/Admin/Notices/Notices.php:218
+msgid "Upgrade to %1$s"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Pro/Admin/PostSettings.php:77
+msgid "%1$s Settings"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Pro/Admin/SiteHealth.php:41
+msgid "%1$s Automatic Updates"
+msgstr ""
+
+#: app/Pro/Admin/SiteHealth.php:46
+msgid "AIOSEO License"
+msgstr ""
+
+#: app/Pro/Admin/SiteHealth.php:51
+msgid "AIOSEO Connection"
+msgstr ""
+
+#: app/Pro/Admin/SiteHealth.php:66
+msgid "Your website is receiving automatic updates"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Pro/Admin/SiteHealth.php:71
+msgid "%1$s automatic updates are enabled and you are getting the latest features, bugfixes, and security updates as they are released."
+msgstr ""
+
+#: app/Pro/Admin/SiteHealth.php:78
+msgid "Your website is receiving minor updates"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Pro/Admin/SiteHealth.php:81
+msgid "%1$s minor updates are enabled and you are getting the latest bugfixes and security updates, but not major features."
+msgstr ""
+
+#: app/Pro/Admin/SiteHealth.php:87
+msgid "Automatic updates are disabled"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Pro/Admin/SiteHealth.php:90
+msgid "%1$s automatic updates are disabled. We recommend enabling automatic updates so you can get access to the latest features, bugfixes, and security updates as they are released."
+msgstr ""
+
+#: app/Pro/Admin/SiteHealth.php:96
+msgid "Update Settings"
+msgstr ""
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Pro/Admin/SiteHealth.php:117
+msgid "Your %1$s license key is valid."
+msgstr ""
+
+#. Translators: 1 - The license type.
+#: app/Pro/Admin/SiteHealth.php:120
+msgid "Your license key type for this site is %1$s."
+msgstr ""
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Pro/Admin/SiteHealth.php:125
+msgid "%1$s is not licensed"
+msgstr ""
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Pro/Admin/SiteHealth.php:128
+msgid "%1$s is not licensed which means you can't access automatic updates, and other advanced features"
+msgstr ""
+
+#: app/Pro/Admin/SiteHealth.php:132
+msgid "Add License now"
+msgstr ""
+
+#: app/Pro/Admin/SiteHealth.php:153
+msgid "Can connect to aioseo.com correctly"
+msgstr ""
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Pro/Admin/SiteHealth.php:156
+msgid "The %1$s API is reachable and no connection issues have been detected."
+msgstr ""
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Pro/Admin/SiteHealth.php:169
+msgid "The %1$s server is not reachable."
+msgstr ""
+
+#: app/Pro/Admin/SiteHealth.php:170
+msgid "Your server is blocking external requests to aioseo.com, please check your firewall settings or contact your host for more details."
+msgstr ""
+
+#. Translators: 1 - The description of the error.
+#: app/Pro/Admin/SiteHealth.php:174
+msgid "Error message: %1$s"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Pro/Admin/SiteHealth.php:217
+msgid "%1$s needs to be updated"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Pro/Admin/SiteHealth.php:222
+msgid "An update is available for %1$s. Upgrade to the latest version to receive all the latest features, bug fixes and security improvements."
+msgstr ""
+
+#: app/Pro/Admin/SiteHealth.php:225
+msgid "Go to Plugins"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Pro/Admin/SiteHealth.php:234
+msgid "%1$s is updated to the latest version"
+msgstr ""
+
+#: app/Pro/Admin/SiteHealth.php:237
+msgid "Fantastic! By updating to the latest version, you have access to all the latest features, bug fixes and security improvements."
+msgstr ""
+
+#: app/Pro/Admin/SiteHealth.php:257
+#: app/Pro/Admin/SiteHealth.php:280
+#: languages/aioseo-pro.php:366
+msgid "Archives"
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1154
+#: app/Pro/Api/SearchStatistics.php:1159
+msgid "(Custom)"
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1175
+msgid "(Block)"
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1223
+msgid "Focus Keyphrase"
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1226
+msgid "Your Focus Keyphrase was not found in your content."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1229
+msgid "No content added yet."
+msgstr ""
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: app/Pro/Api/SearchStatistics.php:1232
+msgid "Your %1$s does not appear in the first paragraph. Make sure the topic is clear immediately."
+msgstr ""
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: app/Pro/Api/SearchStatistics.php:1239
+msgid "Your %1$s was not found in the meta description."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1244
+msgid "Focus Keyphrase not found in the URL."
+msgstr ""
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: app/Pro/Api/SearchStatistics.php:1249
+msgid "No %1$s was set. Set a %1$s in order to calculate your SEO score."
+msgstr ""
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: app/Pro/Api/SearchStatistics.php:1254
+msgid "The %1$s is too long. Try to make it shorter."
+msgstr ""
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: app/Pro/Api/SearchStatistics.php:1259
+msgid "The %1$s is slightly long. Try to make it shorter."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1265
+msgid "No meta description has been specified. Search engines will display copy from the page instead. Make sure to write one!"
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1266
+msgid "Your meta description may not display correctly in search results."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1269
+#: app/Pro/Api/SearchStatistics.php:1270
+msgid "The content is below the minimum of words. Add more content."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1271
+#: app/Pro/Api/SearchStatistics.php:1272
+msgid "This is far below the recommended minimum of words."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1275
+msgid "There are not enough internal links in your content, try adding some more."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1278
+msgid "No outbound links were found. Link out to external resources."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1281
+msgid "Your Focus keyphrase was not found in the SEO title."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1284
+msgid "The Focus keyphrase doesn't appear at the beginning of the SEO title."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1288
+msgid "No title has been specified. Make sure to write one!"
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1289
+msgid "Your title may not display correctly in search results."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1292
+msgid "You are not using rich media like images or videos."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1295
+msgid "At least one paragraph is long. Consider using short paragraphs."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1299
+msgid "Some of your sentences are too long, try shortening them to improve readability."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1303
+msgid "Try to use active counterparts on the sentences."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1307
+#: app/Pro/Api/SearchStatistics.php:1308
+msgid "Use more transition words in your content."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1312
+msgid "The text contains a high number of consecutive sentences starting with the same word. Try to mix things up!"
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1316
+#: app/Pro/Api/SearchStatistics.php:1317
+msgid "Add subheadings to improve readability."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1318
+msgid "You are not using any subheadings, although your text is rather long. Try and add some subheadings."
+msgstr ""
+
+#: app/Pro/Api/SearchStatistics.php:1322
+#: app/Pro/Api/SearchStatistics.php:1323
+msgid "Use less difficult words to improve readability"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Pro/Api/Wizard.php:87
+msgid "Install %1$s Addons"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO"), 2 - A list of addons.
+#: app/Pro/Api/Wizard.php:92
+msgid "You selected to install the following addons during the setup of %1$s, but there was an issue during installation:%2$s"
+msgstr ""
+
+#: app/Pro/Api/Wizard.php:98
+msgid "Install Addons"
+msgstr ""
+
+#: app/Pro/ImportExport/LocalBusiness.php:51
+msgid "Re-Enter Business Type in Local Business"
+msgstr ""
+
+#. Translators: 1 - The country.
+#: app/Pro/ImportExport/LocalBusiness.php:54
+msgid ""
+"For technical reasons, we were unable to migrate the business type you entered for your Local Business schema markup.\n"
+"\t\t\t\tPlease enter it (%1$s) again by using the dropdown menu."
+msgstr ""
+
+#: app/Pro/ImportExport/LocalBusiness.php:97
+#: app/Pro/Migration/LocalBusiness.php:94
+msgid "Re-Enter Country in Local Business"
+msgstr ""
+
+#. Translators: 1 - The country.
+#: app/Pro/ImportExport/LocalBusiness.php:100
+msgid ""
+"For technical reasons, we were unable to migrate the country you entered for your Local Business schema markup.\n"
+"\t\t\t\tPlease enter it (%1$s) again by using the dropdown menu."
+msgstr ""
+
+#: app/Pro/ImportExport/YoastSeo/LocalBusiness.php:93
+#: app/Pro/Migration/LocalBusiness.php:133
+msgid "Invalid Phone Number for Local SEO"
+msgstr ""
+
+#. Translators: 1 - The phone number.
+#: app/Pro/ImportExport/YoastSeo/LocalBusiness.php:96
+msgid ""
+"The phone number that you previously entered for your Local Business schema markup is invalid.\n"
+"\t\t\t\t\tAs it needs to be internationally formatted, please enter it (%1$s) again with the country code, e.g. +1 (555) 555-1234."
+msgstr ""
+
+#: app/Pro/ImportExport/YoastSeo/LocalBusiness.php:136
+msgid "Invalid Fax Number for Local SEO"
+msgstr ""
+
+#. Translators: 1 - The fax number.
+#: app/Pro/ImportExport/YoastSeo/LocalBusiness.php:139
+msgid ""
+"The fax number that you previously entered for your Local Business schema markup is invalid.\n"
+"\t\t\t\t\tAs it needs to be internationally formatted, please enter it (%1$s) again with the country code, e.g. +1 (555) 555-1234."
+msgstr ""
+
+#: app/Pro/ImportExport/YoastSeo/LocalBusiness.php:209
+msgid "Invalid Currencies for Local SEO"
+msgstr ""
+
+#. Translators: 1 - The phone number.
+#: app/Pro/ImportExport/YoastSeo/LocalBusiness.php:212
+msgid ""
+"One or more currencies that you previously entered for your Local Business schema markup are invalid.\n"
+"\t\t\t\t\tPlease select these again using our dropdown menu.</br>%1$s"
+msgstr ""
+
+#. Translators: 1 - The country.
+#: app/Pro/Migration/LocalBusiness.php:97
+msgid "For technical reasons, we were unable to migrate the country you entered for your Local Business schema markup. Please enter it (%1$s) again by using the dropdown menu."
+msgstr ""
+
+#. Translators: 1 - The phone number.
+#: app/Pro/Migration/LocalBusiness.php:136
+msgid "The phone number that you previously entered for your Local Business schema markup is invalid. As it needs to be internationally formatted, please enter it (%1$s) again with the country code, e.g. +1 (555) 555-1234."
+msgstr ""
+
+#. Translators: 1 - The addon or plugin name.
+#: app/Pro/Migration/Migration.php:287
+#: app/Pro/Migration/Migration.php:300
+msgid "Install %1$s"
+msgstr ""
+
+#. Translators: 1 - The addon name, 2 - The plugin short name ("AIOSEO").
+#: app/Pro/Migration/Migration.php:292
+msgid "You previously had the %1$s module active in a previous version of %2$s. While trying to migrate, we ran into an issue with installing the new addon. Click below to manually install."
+msgstr ""
+
+#: app/Pro/Options/Options.php:589
+msgid "Page"
+msgstr ""
+
+#: app/Pro/Schema/Graphs/FactCheck.php:42
+#: languages/aioseo-pro.php:1214
+msgid "False"
+msgstr ""
+
+#: app/Pro/Schema/Graphs/FactCheck.php:45
+#: languages/aioseo-pro.php:1776
+msgid "Mostly False"
+msgstr ""
+
+#: app/Pro/Schema/Graphs/FactCheck.php:48
+#: languages/aioseo-pro.php:1323
+msgid "Half True"
+msgstr ""
+
+#: app/Pro/Schema/Graphs/FactCheck.php:51
+#: languages/aioseo-pro.php:1779
+msgid "Mostly True"
+msgstr ""
+
+#: app/Pro/Schema/Graphs/FactCheck.php:54
+#: languages/aioseo-pro.php:3051
+msgid "True"
+msgstr ""
+
+#: app/Pro/Schema/Graphs/Recipe.php:59
+#: languages/aioseo-pro.php:594
+msgid "Calories"
+msgstr ""
+
+#: app/Pro/SearchStatistics/Stats/Keywords.php:28
+#: app/Pro/SearchStatistics/Stats/Posts.php:28
+#: languages/aioseo-pro.php:277
+msgid "All"
+msgstr ""
+
+#: app/Pro/SearchStatistics/Stats/Keywords.php:33
+#: app/Pro/SearchStatistics/Stats/Posts.php:33
+#: languages/aioseo-pro.php:3039
+msgid "Top Losing"
+msgstr ""
+
+#: app/Pro/SearchStatistics/Stats/Keywords.php:38
+#: app/Pro/SearchStatistics/Stats/Posts.php:38
+#: languages/aioseo-pro.php:3045
+msgid "Top Winning"
+msgstr ""
+
+#: app/Pro/SearchStatistics/Stats/Posts.php:59
+msgid "All Content Types"
+msgstr ""
+
+#. Translators: 1 - Opening HTML link tag, 2 - Closing HTML link tag.
+#: app/Pro/Utils/Addons.php:266
+msgid "The following addons cannot be used, because your plan has expired. To renew your subscription, please %1$svisit our website%2$s."
+msgstr ""
+
+#. Translators: 1 - "All in One SEO", 2 - Opening HTML link tag, 3 - Closing HTML link tag.
+#: app/Pro/Utils/Addons.php:279
+msgid "The following addons cannot be used, because they require an active license for %1$s. Your license is missing or has expired. To verify your subscription, please %2$svisit our website%3$s."
+msgstr ""
+
+#: app/Pro/Utils/Addons.php:292
+msgid "Unlicensed"
+msgstr ""
+
+#. Translators: 1 - The current plan name, 2 - Opening HTML link tag, 3 - Closing HTML link tag.
+#: app/Pro/Utils/Addons.php:295
+msgid "The following addons cannot be used, because your plan level %1$s does not include access to these addons. To upgrade your subscription, please %2$svisit our website%3$s."
+msgstr ""
+
+#: app/Pro/Utils/Tags.php:37
+msgid "WooCommerce SKU"
+msgstr ""
+
+#: app/Pro/Utils/Tags.php:38
+msgid "The SKU of the WooCommerce product."
+msgstr ""
+
+#: app/Pro/Utils/Tags.php:42
+msgid "WooCommerce Price"
+msgstr ""
+
+#: app/Pro/Utils/Tags.php:43
+msgid "The price of the WooCommerce product."
+msgstr ""
+
+#: app/Pro/Utils/Tags.php:47
+msgid "WooCommerce Brand"
+msgstr ""
+
+#: app/Pro/Utils/Tags.php:48
+msgid "The brand of the WooCommerce product (compatible with WooCommerce Brands and Perfect WooCommerce Brands plugins)."
+msgstr ""
+
+#: app/Pro/Utils/Tags.php:121
+msgid "Sample SKU"
+msgstr ""
+
+#: app/Pro/Utils/Tags.php:127
+msgid "$5.99"
+msgstr ""
+
+#: app/Pro/Utils/Tags.php:147
+msgid "Sample Brand"
+msgstr ""
+
+#: app/Pro/Views/admin/add-network-site.php:24
+msgid "SEO Settings"
+msgstr ""
+
+#: app/Pro/Views/admin/add-network-site.php:37
+msgid "Choose a site to import SEO settings from."
+msgstr ""
+
+#. Translators: 1 - The expiration date of the license.
+#: languages/aioseo-pro.php:7
+msgid "(expires: %1$s)"
+msgstr ""
+
+#. Translators: 1 - The amount of phrases.
+#: languages/aioseo-pro.php:11
+msgid "%1$d more phrase"
+msgid_plural "%1$d more phrases"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: 1 - The number of posts.
+#: languages/aioseo-pro.php:15
+msgid "%1$d more post"
+msgid_plural "%1$d more posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: The short plugin name ("AIOSEO Pro").
+#: languages/aioseo-pro.php:19
+msgid "%1$s allows you to choose a primary category for your posts. This feature works hand in hand with our powerful Breadcrumbs template to give you full navigational control to help improve your search rankings."
+msgstr ""
+
+#. Translators: 1 - The type of format ("Title", "Alt Tag", "Caption" or "Description").
+#: languages/aioseo-pro.php:23
+msgid "%1$s Format"
+msgstr ""
+
+#. Translators: 1 - The type of link.
+#: languages/aioseo-pro.php:27
+msgid "%1$s Link Suggestions"
+msgstr ""
+
+#. Translators: 1 - Server type (e.g. nginx)
+#: languages/aioseo-pro.php:31
+msgid "%1$s Server has been detected."
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-pro.php:35
+msgid "%1$s Table of Contents"
+msgstr ""
+
+#. Translators: 1 - The name of the plugin being imported (e.g "Yoast SEO").
+#: languages/aioseo-pro.php:39
+msgid "%1$s was successfully imported!"
+msgstr ""
+
+#. Translators: 1 - Opening link tag, 2 - Closing link tag.
+#: languages/aioseo-pro.php:43
+msgid "%1$sGDPR / Privacy information%2$s"
+msgstr ""
+
+#. Translators: 1 - Opening strong tag, 2 - Closing strong tag, BR tag.
+#: languages/aioseo-pro.php:47
+msgid "%1$sInbound Internal Links%2$sLinks from other posts to this post"
+msgstr ""
+
+#. Translators: 1 - Opening strong tag, 2 - Closing strong tag, BR tag.
+#: languages/aioseo-pro.php:51
+msgid "%1$sOutbound Internal Links%2$sLinks from this post to other posts"
+msgstr ""
+
+#. Translators: 1 - Strong tag, 2 - Close strong tag.
+#: languages/aioseo-pro.php:55
+msgid "%1$sThe custom marker should be: 100x100 px.%2$s If the image exceeds those dimensions it could (partially) cover the info popup."
+msgstr ""
+
+#. Translators: 1 - Opening strong tag, 2 - Closing strong tag., 3 - Doc link
+#: languages/aioseo-pro.php:59
+msgid "%1$sWarning:%2$s ensure your HTTPS is working before forcing a redirect. %3$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:62
+msgid "1 day"
+msgstr ""
+
+#: languages/aioseo-pro.php:65
+msgid "1 hour"
+msgstr ""
+
+#: languages/aioseo-pro.php:68
+msgid "1 week"
+msgstr ""
+
+#: languages/aioseo-pro.php:71
+msgid "404 Logs"
+msgstr ""
+
+#: languages/aioseo-pro.php:75
+msgid "404 Monitoring"
+msgstr ""
+
+#. Translators: 1 - A learn more link.
+#: languages/aioseo-pro.php:79
+msgid "A Google API Key is necessary to render your maps. %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:82
+msgid "A human readable name for the size, such as \"XL\", if applicable. Do not enter the dimensions of the product."
+msgstr ""
+
+#: languages/aioseo-pro.php:85
+msgid "A JSON file is required to import redirects."
+msgstr ""
+
+#: languages/aioseo-pro.php:88
+msgid "A link to, or an inline description of, the article or outlet where this claim appears."
+msgstr ""
+
+#: languages/aioseo-pro.php:93
+msgid "A Location ID if Multiple Locations is on."
+msgstr ""
+
+#: languages/aioseo-pro.php:96
+msgid "A short summary describing the dataset. The description must be between 50 and 5,000 characters long."
+msgstr ""
+
+#: languages/aioseo-pro.php:99
+msgid "A short summary of the claim being evaluated. It is recommended to keep this less than 75 characters."
+msgstr ""
+
+#: languages/aioseo-pro.php:102
+msgid "A site alias is another domain that you want to be redirected to this site. For example, an old domain, or a subdomain. This will redirect all URLs, including WordPress login and admin. You will need to configure your system (DNS and server) to pass requests for these domains to this WordPress install."
+msgstr ""
+
+#: languages/aioseo-pro.php:105
+msgid "A URL for the place the place or venue where the event is being held."
+msgstr ""
+
+#: languages/aioseo-pro.php:108
+msgid "A URL pointing to an embeddable player for the video (e.g. a YouTube link)."
+msgstr ""
+
+#: languages/aioseo-pro.php:111
+msgid "A URL pointing to the video media file (e.g. MP4, MOV, etc.). Search engines prefer the content URL over the embed URL."
+msgstr ""
+
+#: languages/aioseo-pro.php:114
+msgid "A URL that directly links to the step (if one is available). For example, an anchor link fragment or a video with a time offset."
+msgstr ""
+
+#: languages/aioseo-pro.php:117
+msgid "A URL to the page where tickets can be purchased."
+msgstr ""
+
+#: languages/aioseo-pro.php:120
+msgid "A valid license key is required in order to enable Pro features and continue to receive automatic updates."
+msgstr ""
+
+#: languages/aioseo-pro.php:123
+msgid "Access Control"
+msgstr ""
+
+#: languages/aioseo-pro.php:126
+msgid "Accessible for Free"
+msgstr ""
+
+#: languages/aioseo-pro.php:131
+msgid "Actionable Link Suggestions"
+msgstr ""
+
+#: languages/aioseo-pro.php:134
+msgid "Activate"
+msgstr ""
+
+#: languages/aioseo-pro.php:137
+msgid "Activate Image SEO"
+msgstr ""
+
+#: languages/aioseo-pro.php:140
+msgid "Activate License"
+msgstr ""
+
+#: languages/aioseo-pro.php:144
+msgid "Activate Link Assistant"
+msgstr ""
+
+#: languages/aioseo-pro.php:147
+msgid "Activate Local SEO"
+msgstr ""
+
+#: languages/aioseo-pro.php:150
+msgid "Activate News Sitemap"
+msgstr ""
+
+#: languages/aioseo-pro.php:153
+msgid "Activate Redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:156
+msgid "Activate Video Sitemap"
+msgstr ""
+
+#: languages/aioseo-pro.php:160
+msgid "Activated"
+msgstr ""
+
+#: languages/aioseo-pro.php:163
+msgid "Add an alias redirect by clicking in 'Add New'."
+msgstr ""
+
+#. Translators: 1 - The name of a schema subgraph (e.g. "Review", "Edition", etc.).
+#: languages/aioseo-pro.php:167
+msgid "Add Another %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:170
+msgid "Add CORS Presets"
+msgstr ""
+
+#: languages/aioseo-pro.php:173
+msgid "Add Header"
+msgstr ""
+
+#: languages/aioseo-pro.php:176
+msgid "Add headers by clicking in the options below."
+msgstr ""
+
+#: languages/aioseo-pro.php:180
+msgid "Add Link"
+msgstr ""
+
+#: languages/aioseo-pro.php:184
+msgid "Add New"
+msgstr ""
+
+#: languages/aioseo-pro.php:187
+msgid "Add New Redirection"
+msgstr ""
+
+#: languages/aioseo-pro.php:190
+msgid "Add New Redirections"
+msgstr ""
+
+#: languages/aioseo-pro.php:193
+msgid "Add Redirect"
+msgstr ""
+
+#: languages/aioseo-pro.php:196
+msgid "Add Redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:200
+msgid "Add Schema"
+msgstr ""
+
+#: languages/aioseo-pro.php:203
+msgid "Add Security Presets"
+msgstr ""
+
+#: languages/aioseo-pro.php:206
+msgid "Add Template"
+msgstr ""
+
+#: languages/aioseo-pro.php:209
+msgid "Add www to domain"
+msgstr ""
+
+#: languages/aioseo-pro.php:212
+msgid "Additional Info"
+msgstr ""
+
+#: languages/aioseo-pro.php:215
+msgid "Additional Pages"
+msgstr ""
+
+#: languages/aioseo-pro.php:219
+msgid "Address"
+msgstr ""
+
+#: languages/aioseo-pro.php:222
+msgid "Address Format"
+msgstr ""
+
+#: languages/aioseo-pro.php:225
+msgid "Address Line 1"
+msgstr ""
+
+#: languages/aioseo-pro.php:228
+msgid "Address Line 2"
+msgstr ""
+
+#: languages/aioseo-pro.php:232
+msgid "Advanced"
+msgstr ""
+
+#. Translators: 1 - "Learn more".
+#: languages/aioseo-pro.php:236
+msgid "Advanced 404 Management is not available for your current plan. %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:240
+msgid "Advanced 404 Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:243
+msgid "Advanced Locations Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:253
+msgid "Advanced Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:262
+msgid "Affiliate"
+msgstr ""
+
+#: languages/aioseo-pro.php:265
+msgid "Affiliate Link Prefix"
+msgstr ""
+
+#: languages/aioseo-pro.php:268
+msgid "Alias"
+msgstr ""
+
+#: languages/aioseo-pro.php:271
+msgid "Alias Of"
+msgstr ""
+
+#: languages/aioseo-pro.php:274
+msgid "Aliased Domain"
+msgstr ""
+
+#: languages/aioseo-pro.php:280
+msgid "All Groups"
+msgstr ""
+
+#: languages/aioseo-pro.php:283
+msgid "All letters are converted to lower case (small) letters."
+msgstr ""
+
+#: languages/aioseo-pro.php:286
+msgid "All Locations"
+msgstr ""
+
+#: languages/aioseo-pro.php:289
+msgid "All Redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:292
+msgid "Allow videos to be played directly on other websites, such as Facebook or Twitter."
+msgstr ""
+
+#: languages/aioseo-pro.php:295
+msgid "Allows you to specify the maximum number of posts in a sitemap (up to 50,000)."
+msgstr ""
+
+#: languages/aioseo-pro.php:298
+msgid "alt tag attributes"
+msgstr ""
+
+#: languages/aioseo-pro.php:301
+msgid "Alternative Names"
+msgstr ""
+
+#: languages/aioseo-pro.php:304
+msgid "Amount of Servings"
+msgstr ""
+
+#: languages/aioseo-pro.php:307
+msgid "Ampersand (&)"
+msgstr ""
+
+#: languages/aioseo-pro.php:322
+msgid "An error occurred while activating the addon. Please upload it manually or contact support for more information."
+msgstr ""
+
+#. Translators: 1 - The name of the plugin being imported (e.g "Yoast SEO").
+#: languages/aioseo-pro.php:326
+msgid "An error occurred while importing %1$s. Please try again."
+msgstr ""
+
+#. Translators: 1 - "Titles" or "Descriptions".
+#: languages/aioseo-pro.php:331
+msgid "An OpenAI API Key is Required to Generate SEO %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:334
+msgid "An unknown error occurred, please try again later."
+msgstr ""
+
+#: languages/aioseo-pro.php:337
+msgid "Anonymize IP"
+msgstr ""
+
+#: languages/aioseo-pro.php:340
+msgid "Answer"
+msgstr ""
+
+#: languages/aioseo-pro.php:345
+msgid "Any changes you've made will be lost. This action cannot be undone."
+msgstr ""
+
+#: languages/aioseo-pro.php:348
+msgid "Any posts that are assigned to these terms will also be excluded from your sitemap."
+msgstr ""
+
+#: languages/aioseo-pro.php:351
+msgid "Any posts that are assigned to these terms will also be excluded."
+msgstr ""
+
+#: languages/aioseo-pro.php:354
+msgid "Apache Redirects (.htaccess)"
+msgstr ""
+
+#: languages/aioseo-pro.php:357
+msgid "API Key"
+msgstr ""
+
+#: languages/aioseo-pro.php:360
+msgid "Apostrophe (')"
+msgstr ""
+
+#: languages/aioseo-pro.php:363
+msgid "Appearance"
+msgstr ""
+
+#: languages/aioseo-pro.php:369
+msgid "Are you sure you want to add all suggestions?"
+msgstr ""
+
+#: languages/aioseo-pro.php:372
+msgid "Are you sure you want to add these suggestions?"
+msgstr ""
+
+#: languages/aioseo-pro.php:375
+msgid "Are you sure you want to add this suggestion?"
+msgstr ""
+
+#: languages/aioseo-pro.php:378
+msgid "Are you sure you want to close the Schema Generator?"
+msgstr ""
+
+#: languages/aioseo-pro.php:381
+msgid "Are you sure you want to delete all links for all domains?"
+msgstr ""
+
+#: languages/aioseo-pro.php:384
+msgid "Are you sure you want to delete all links for these domains?"
+msgstr ""
+
+#: languages/aioseo-pro.php:388
+msgid "Are you sure you want to delete all links for this domain?"
+msgstr ""
+
+#: languages/aioseo-pro.php:391
+msgid "Are you sure you want to delete all links for this post?"
+msgstr ""
+
+#: languages/aioseo-pro.php:395
+msgid "Are you sure you want to delete these links for this domain?"
+msgstr ""
+
+#: languages/aioseo-pro.php:398
+msgid "Are you sure you want to delete these redirects?"
+msgstr ""
+
+#: languages/aioseo-pro.php:401
+msgid "Are you sure you want to delete this custom schema?"
+msgstr ""
+
+#: languages/aioseo-pro.php:404
+msgid "Are you sure you want to delete this record?"
+msgstr ""
+
+#: languages/aioseo-pro.php:407
+msgid "Are you sure you want to delete this redirect?"
+msgstr ""
+
+#: languages/aioseo-pro.php:411
+msgid "Are you sure you want to delete this schema?"
+msgstr ""
+
+#: languages/aioseo-pro.php:415
+msgid "Are you sure you want to delete this template?"
+msgstr ""
+
+#: languages/aioseo-pro.php:418
+msgid "Are you sure you want to disconnect Search Statistics?"
+msgstr ""
+
+#: languages/aioseo-pro.php:421
+msgid "Are you sure you want to dismiss all suggestions?"
+msgstr ""
+
+#: languages/aioseo-pro.php:424
+msgid "Are you sure you want to dismiss these suggestions?"
+msgstr ""
+
+#: languages/aioseo-pro.php:427
+msgid "Are you sure you want to dismiss this suggestion?"
+msgstr ""
+
+#: languages/aioseo-pro.php:430
+msgid "Are you sure you want to leave this page?"
+msgstr ""
+
+#: languages/aioseo-pro.php:433
+msgid "Are you sure you want to switch to a different schema?"
+msgstr ""
+
+#: languages/aioseo-pro.php:436
+msgid "Area Served"
+msgstr ""
+
+#: languages/aioseo-pro.php:443
+msgid "Article"
+msgstr ""
+
+#: languages/aioseo-pro.php:446
+msgid "Article Type"
+msgstr ""
+
+#: languages/aioseo-pro.php:449
+msgid "at"
+msgstr ""
+
+#: languages/aioseo-pro.php:452
+msgid "attachment page descriptions"
+msgstr ""
+
+#: languages/aioseo-pro.php:455
+msgid "Attendance Mode"
+msgstr ""
+
+#: languages/aioseo-pro.php:458
+msgid "Attributes"
+msgstr ""
+
+#: languages/aioseo-pro.php:461
+msgid "Audience"
+msgstr ""
+
+#: languages/aioseo-pro.php:464
+msgid "Audiobook"
+msgstr ""
+
+#: languages/aioseo-pro.php:474
+msgid "Author"
+msgstr ""
+
+#: languages/aioseo-pro.php:477
+msgid "Author Name"
+msgstr ""
+
+#: languages/aioseo-pro.php:480
+msgid "Author Type"
+msgstr ""
+
+#: languages/aioseo-pro.php:483
+msgid "Author URL"
+msgstr ""
+
+#. Translators: 1 - ".htaccess".
+#: languages/aioseo-pro.php:487
+msgid "Auto-write to %1$s"
+msgstr ""
+
+#. Translators: 1 - The image attribute name ("Caption" or "Description").
+#: languages/aioseo-pro.php:491
+msgid "Autogenerate %1$s on Upload"
+msgstr ""
+
+#: languages/aioseo-pro.php:494
+msgid "Autogenerate Fields"
+msgstr ""
+
+#: languages/aioseo-pro.php:498
+msgid "Autogenerate image attributes"
+msgstr ""
+
+#: languages/aioseo-pro.php:503
+msgid "Automatic Redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:506
+msgid "Availability"
+msgstr ""
+
+#: languages/aioseo-pro.php:509
+msgid "Back"
+msgstr ""
+
+#. Translators: 1 - The previous route name.
+#: languages/aioseo-pro.php:513
+msgid "Back to %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:516
+msgid "Back to Links Report"
+msgstr ""
+
+#: languages/aioseo-pro.php:519
+msgid "Back to Schema Catalog"
+msgstr ""
+
+#: languages/aioseo-pro.php:522
+msgid "Before the schema can be generated correctly, the post must first be saved as a draft or published."
+msgstr ""
+
+#: languages/aioseo-pro.php:525
+msgid "Before you can save this template, you must first enter a name so that you can easily identify it later."
+msgstr ""
+
+#. Translators: 1 - Opening anchor tag, 2 - Closing anchor tag.
+#: languages/aioseo-pro.php:529
+msgid "Below are the default settings for all locations, which can be overwritten per %1$slocation%2$s."
+msgstr ""
+
+#. Translators: 1 - "AIOSEO", 2 - "Learn More" link.
+#: languages/aioseo-pro.php:533
+msgid "Below you can add inbound and outbound internal links based on %1$s's smart suggestions. These suggestions are generated in the background, which requires some time to complete. %2$s"
+msgstr ""
+
+#. Translators: 1 - The image attribute name (e.g. "title attributes", "alt tag attributes", etc.).
+#: languages/aioseo-pro.php:540
+msgid "Below you can control how your %1$s look like by setting a format (similar to the SEO title/description formats), stripping punctuation and converting the casing."
+msgstr ""
+
+#. Translators: 1 - The image attribute name (e.g. "title attributes", "alt tag attributes", etc.).
+#: languages/aioseo-pro.php:544
+msgid "Below you can control how your %1$s look like by stripping punctuation, specific words and converting the casing."
+msgstr ""
+
+#: languages/aioseo-pro.php:548
+msgid "Blog Post"
+msgstr ""
+
+#: languages/aioseo-pro.php:551
+msgid "Book"
+msgstr ""
+
+#: languages/aioseo-pro.php:554
+msgid "Book Edition"
+msgstr ""
+
+#: languages/aioseo-pro.php:557
+msgid "Book Format"
+msgstr ""
+
+#: languages/aioseo-pro.php:560
+msgid "Brand"
+msgstr ""
+
+#: languages/aioseo-pro.php:563
+msgid "Breadcrumb Templates"
+msgstr ""
+
+#: languages/aioseo-pro.php:566
+msgid "Browser App"
+msgstr ""
+
+#: languages/aioseo-pro.php:569
+msgid "Business App"
+msgstr ""
+
+#: languages/aioseo-pro.php:575
+msgid "Business Info"
+msgstr ""
+
+#: languages/aioseo-pro.php:578
+msgid "By connecting to Google Search Console, you will receive valuable insights on how your content is being discovered. With this information, you will be able to identify areas for improvement and make changes to your content strategy in order to improve search engine rankings and drive more traffic to your website."
+msgstr ""
+
+#. Translators: 1 - "embed.ly", 2 - "embed.ly".
+#: languages/aioseo-pro.php:582
+msgid "By default, we try to provide enriched information about your videos. A lot of video services are supported by default. For those services which aren't supported, we can try to retrieve enriched video information using %1$s. If you want to use this option, you'll need to sign up for a (free) %2$s account and provide the API key you receive."
+msgstr ""
+
+#: languages/aioseo-pro.php:585
+msgid "By default, your license key is activated on the primary domain for this network. To activate the license key on additional sites, select them below."
+msgstr ""
+
+#: languages/aioseo-pro.php:588
+msgid "By enabling this option you disabled any site aliases or canonical settings. Enter a domain to redirect everything, except WordPress login and admin."
+msgstr ""
+
+#: languages/aioseo-pro.php:591
+msgid "Cache Redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:597
+msgid "Cancel"
+msgstr ""
+
+#: languages/aioseo-pro.php:600
+msgid "Canonical Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:603
+msgid "Canonical Settings are disabled because you have relocated your site to another domain."
+msgstr ""
+
+#: languages/aioseo-pro.php:606
+msgid "caption"
+msgstr ""
+
+#: languages/aioseo-pro.php:609
+msgid "captions"
+msgstr ""
+
+#: languages/aioseo-pro.php:612
+msgid "Capture HTTP header information with the logs (except for cookies)."
+msgstr ""
+
+#: languages/aioseo-pro.php:615
+msgid "Casing"
+msgstr ""
+
+#: languages/aioseo-pro.php:618
+msgid "Category"
+msgstr ""
+
+#: languages/aioseo-pro.php:621
+msgid "Chamber of Commerce ID"
+msgstr ""
+
+#: languages/aioseo-pro.php:624
+msgid "Characters to Convert to Spaces:"
+msgstr ""
+
+#: languages/aioseo-pro.php:627
+msgid "Characters to Exclude from Being Stripped:"
+msgstr ""
+
+#: languages/aioseo-pro.php:630
+msgid "Check Again"
+msgstr ""
+
+#: languages/aioseo-pro.php:633
+msgid "Check Redirect"
+msgstr ""
+
+#: languages/aioseo-pro.php:636
+msgid "Check redirect for"
+msgstr ""
+
+#: languages/aioseo-pro.php:639
+msgid "Choose a File"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-pro.php:643
+msgid "Choose a plugin to import redirects directly into %1$s."
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO"), 2 - The singular image attribute name ("caption" or "description"), 3 - The plural image attribute name ("captions" or "descriptions").
+#: languages/aioseo-pro.php:648
+msgid "Choose whether %1$s should automatically generate a %2$s when new images are uploaded. If you disable this setting, you can still generate %3$s in the Media Library via our bulk action."
+msgstr ""
+
+#: languages/aioseo-pro.php:651
+msgid "Choose which casing should be applied to the attribute."
+msgstr ""
+
+#: languages/aioseo-pro.php:655
+msgid "City"
+msgstr ""
+
+#: languages/aioseo-pro.php:658
+msgid "Claim"
+msgstr ""
+
+#: languages/aioseo-pro.php:662
+msgid "Clean uploaded image filenames"
+msgstr ""
+
+#: languages/aioseo-pro.php:665
+msgid "Clear"
+msgstr ""
+
+#: languages/aioseo-pro.php:668
+msgid "Click here to enter an API key"
+msgstr ""
+
+#. Translators: 1 - The name of the image attribute ("Title", "Alt Tag", "Caption" or "Description").
+#: languages/aioseo-pro.php:672
+msgid "Click on the tags below to insert variables into your %1$s attribute."
+msgstr ""
+
+#: languages/aioseo-pro.php:676
+msgid "Closed"
+msgstr ""
+
+#: languages/aioseo-pro.php:679
+msgid "Collection Page"
+msgstr ""
+
+#: languages/aioseo-pro.php:682
+msgid "Color"
+msgstr ""
+
+#: languages/aioseo-pro.php:685
+msgid "Communication App"
+msgstr ""
+
+#: languages/aioseo-pro.php:689
+msgid "Complete Data (JSON)"
+msgstr ""
+
+#: languages/aioseo-pro.php:692
+msgid "Configure Schema Markup for your content. Search engines use structured data to display rich results in SERPs."
+msgstr ""
+
+#: languages/aioseo-pro.php:697
+msgid "Connect"
+msgstr ""
+
+#. Translators: 1 - Google name.
+#: languages/aioseo-pro.php:701
+msgid "Connect to %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:706
+msgid "Contact Info"
+msgstr ""
+
+#: languages/aioseo-pro.php:711
+msgid "Content"
+msgstr ""
+
+#: languages/aioseo-pro.php:715
+msgid "Content Performance"
+msgstr ""
+
+#: languages/aioseo-pro.php:718
+msgid "Content Rankings"
+msgstr ""
+
+#: languages/aioseo-pro.php:721
+msgid "Content Types"
+msgstr ""
+
+#: languages/aioseo-pro.php:724
+msgid "Content URL"
+msgstr ""
+
+#: languages/aioseo-pro.php:727
+msgid "Content Width"
+msgstr ""
+
+#: languages/aioseo-pro.php:730
+msgid "Context"
+msgstr ""
+
+#: languages/aioseo-pro.php:734
+msgid "Convert casing of image attributes"
+msgstr ""
+
+#. Translators: 1 - The plural punctuation character name ("dashes" or "underscores").
+#: languages/aioseo-pro.php:738
+msgid "Converting %1$s to spaces is disabled when excluding from stripping."
+msgstr ""
+
+#: languages/aioseo-pro.php:741
+msgid "Cooking Time"
+msgstr ""
+
+#: languages/aioseo-pro.php:744
+msgid "Coordinates"
+msgstr ""
+
+#: languages/aioseo-pro.php:747
+msgid "Copied!"
+msgstr ""
+
+#: languages/aioseo-pro.php:750
+msgid "Copy"
+msgstr ""
+
+#: languages/aioseo-pro.php:757
+msgid "Country"
+msgstr ""
+
+#: languages/aioseo-pro.php:763
+msgid "Course"
+msgstr ""
+
+#: languages/aioseo-pro.php:766
+msgid "Cuisine Type"
+msgstr ""
+
+#: languages/aioseo-pro.php:769
+msgid "Currencies Accepted"
+msgstr ""
+
+#: languages/aioseo-pro.php:777
+msgid "Currency"
+msgstr ""
+
+#: languages/aioseo-pro.php:782
+msgid "Custom"
+msgstr ""
+
+#: languages/aioseo-pro.php:785
+msgid "Custom Admin Labels"
+msgstr ""
+
+#: languages/aioseo-pro.php:788
+msgid "Custom Fields"
+msgstr ""
+
+#: languages/aioseo-pro.php:791
+msgid "Custom Marker"
+msgstr ""
+
+#: languages/aioseo-pro.php:794
+msgid "Custom Rules"
+msgstr ""
+
+#: languages/aioseo-pro.php:798
+msgid "Custom Schema"
+msgstr ""
+
+#: languages/aioseo-pro.php:802
+msgid "Custom URL"
+msgstr ""
+
+#: languages/aioseo-pro.php:806
+msgid "Dashboard"
+msgstr ""
+
+#: languages/aioseo-pro.php:810
+msgid "Dashes (-)"
+msgstr ""
+
+#: languages/aioseo-pro.php:813
+msgid "Data Catalog"
+msgstr ""
+
+#: languages/aioseo-pro.php:819
+msgid "Dataset"
+msgstr ""
+
+#: languages/aioseo-pro.php:822
+msgid "Date Modified"
+msgstr ""
+
+#: languages/aioseo-pro.php:827
+msgid "Date Published"
+msgstr ""
+
+#: languages/aioseo-pro.php:832
+msgid "Dates"
+msgstr ""
+
+#: languages/aioseo-pro.php:835
+msgid "Days"
+msgstr ""
+
+#: languages/aioseo-pro.php:838
+msgid "Deactivate"
+msgstr ""
+
+#: languages/aioseo-pro.php:841
+msgid "Deactivate License"
+msgstr ""
+
+#: languages/aioseo-pro.php:844
+msgid "Deactivate this license key"
+msgstr ""
+
+#: languages/aioseo-pro.php:847
+msgid "Deactivated"
+msgstr ""
+
+#: languages/aioseo-pro.php:851
+msgid "default"
+msgstr ""
+
+#: languages/aioseo-pro.php:854
+msgid "Default 404 Redirect"
+msgstr ""
+
+#: languages/aioseo-pro.php:857
+msgid "Default Location Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:860
+msgid "Default Map Style"
+msgstr ""
+
+#: languages/aioseo-pro.php:873
+msgid "Delete"
+msgstr ""
+
+#. Translators: 1 - The type of link.
+#: languages/aioseo-pro.php:879
+msgid "Delete All %1$s Links"
+msgstr ""
+
+#: languages/aioseo-pro.php:883
+msgid "Delete All Links"
+msgstr ""
+
+#: languages/aioseo-pro.php:888
+msgid "Delete Schema"
+msgstr ""
+
+#: languages/aioseo-pro.php:892
+msgid "Delete Template"
+msgstr ""
+
+#: languages/aioseo-pro.php:895
+msgid "description"
+msgstr ""
+
+#: languages/aioseo-pro.php:917
+msgid "Description"
+msgstr ""
+
+#: languages/aioseo-pro.php:920
+msgid "descriptions"
+msgstr ""
+
+#: languages/aioseo-pro.php:925
+msgid "Descriptions"
+msgstr ""
+
+#: languages/aioseo-pro.php:928
+msgid "Design App"
+msgstr ""
+
+#: languages/aioseo-pro.php:931
+msgid "Desktop Enhancement App"
+msgstr ""
+
+#: languages/aioseo-pro.php:935
+msgid "Details"
+msgstr ""
+
+#: languages/aioseo-pro.php:938
+msgid "Developer App"
+msgstr ""
+
+#: languages/aioseo-pro.php:941
+msgid "Director"
+msgstr ""
+
+#: languages/aioseo-pro.php:944
+msgid "Disable"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO"), 2 - The name of a eCommerce plugin ("Easy Digital Downloads" or "WooCommerce").
+#: languages/aioseo-pro.php:948
+msgid "Disable this setting if you'd like to edit all fields manually instead of letting %1$s automatically generate them for you based on the product data from %2$s."
+msgstr ""
+
+#: languages/aioseo-pro.php:951
+msgid "Disable this setting to prevent search engines from including dates in their search results."
+msgstr ""
+
+#: languages/aioseo-pro.php:954
+msgid "Disconnect"
+msgstr ""
+
+#: languages/aioseo-pro.php:957
+msgid "Dish Type"
+msgstr ""
+
+#. Translators: 1 - The type of suggestion.
+#: languages/aioseo-pro.php:962
+msgid "Dismiss All %1$s Suggestions"
+msgstr ""
+
+#: languages/aioseo-pro.php:965
+msgid "Dismiss Suggestion"
+msgstr ""
+
+#: languages/aioseo-pro.php:968
+msgid "Display Block"
+msgstr ""
+
+#: languages/aioseo-pro.php:971
+msgid "Display Location Info"
+msgstr ""
+
+#: languages/aioseo-pro.php:974
+msgid "Display Map"
+msgstr ""
+
+#: languages/aioseo-pro.php:977
+msgid "Display Opening Hours"
+msgstr ""
+
+#: languages/aioseo-pro.php:980
+msgid "Displayed when the business is closed."
+msgstr ""
+
+#: languages/aioseo-pro.php:983
+msgid "Displayed when the business is open all day long."
+msgstr ""
+
+#: languages/aioseo-pro.php:987
+msgid "Domain"
+msgstr ""
+
+#: languages/aioseo-pro.php:990
+msgid "Done"
+msgstr ""
+
+#: languages/aioseo-pro.php:993
+msgid "Download"
+msgstr ""
+
+#: languages/aioseo-pro.php:996
+msgid "Downloads"
+msgstr ""
+
+#: languages/aioseo-pro.php:999
+msgid "Driver App"
+msgstr ""
+
+#: languages/aioseo-pro.php:1002
+msgid "Duration"
+msgstr ""
+
+#: languages/aioseo-pro.php:1005
+msgid "Dynamically creates the Video Sitemap instead of using a static file."
+msgstr ""
+
+#: languages/aioseo-pro.php:1008
+msgid "Dynamically Generate"
+msgstr ""
+
+#: languages/aioseo-pro.php:1011
+msgid "eBook"
+msgstr ""
+
+#: languages/aioseo-pro.php:1014
+msgid "Edit"
+msgstr ""
+
+#. Translators: 1 - A noun for something that's being edited ("Post", "Page", "Article", "Product", etc.).
+#: languages/aioseo-pro.php:1018
+msgid "Edit %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:1021
+msgid "Edit Schema"
+msgstr ""
+
+#: languages/aioseo-pro.php:1024
+msgid "Edit Template"
+msgstr ""
+
+#: languages/aioseo-pro.php:1027
+msgid "Edition"
+msgstr ""
+
+#: languages/aioseo-pro.php:1030
+msgid "Editions"
+msgstr ""
+
+#: languages/aioseo-pro.php:1033
+msgid "Educational App"
+msgstr ""
+
+#: languages/aioseo-pro.php:1036
+msgid "Email"
+msgstr ""
+
+#: languages/aioseo-pro.php:1039
+msgid "Email Address"
+msgstr ""
+
+#: languages/aioseo-pro.php:1042
+msgid "Embed"
+msgstr ""
+
+#: languages/aioseo-pro.php:1045
+msgid "Embed URL"
+msgstr ""
+
+#: languages/aioseo-pro.php:1048
+msgid "Embedly API Key"
+msgstr ""
+
+#: languages/aioseo-pro.php:1051
+msgid "Employment Type"
+msgstr ""
+
+#: languages/aioseo-pro.php:1054
+msgid "Enable"
+msgstr ""
+
+#: languages/aioseo-pro.php:1058
+msgid "Enable Advanced SEO for Images on your Site"
+msgstr ""
+
+#: languages/aioseo-pro.php:1061
+msgid "Enable default 404 redirect"
+msgstr ""
+
+#: languages/aioseo-pro.php:1065
+msgid "Enable Google News Sitemap on your Site"
+msgstr ""
+
+#: languages/aioseo-pro.php:1070
+msgid "Enable Link Assistant on your Site"
+msgstr ""
+
+#: languages/aioseo-pro.php:1074
+msgid "Enable Local SEO on your Site"
+msgstr ""
+
+#: languages/aioseo-pro.php:1077
+msgid "Enable Redirect Cache"
+msgstr ""
+
+#: languages/aioseo-pro.php:1081
+msgid "Enable Redirects on your Site"
+msgstr ""
+
+#: languages/aioseo-pro.php:1084
+msgid "Enable Sitemap Indexes"
+msgstr ""
+
+#: languages/aioseo-pro.php:1087
+msgid "Enable this if the job is 100% remote."
+msgstr ""
+
+#: languages/aioseo-pro.php:1090
+msgid "Enable this option to look for videos in custom fields as well."
+msgstr ""
+
+#: languages/aioseo-pro.php:1094
+msgid "Enable Video Sitemap on your Site"
+msgstr ""
+
+#: languages/aioseo-pro.php:1097
+msgid "Encoding Format"
+msgstr ""
+
+#: languages/aioseo-pro.php:1100
+msgid "End Date"
+msgstr ""
+
+#: languages/aioseo-pro.php:1103
+msgid "Enhanced Search"
+msgstr ""
+
+#: languages/aioseo-pro.php:1106
+msgid "Enhanced Search - Excerpt"
+msgstr ""
+
+#. Translators: 1 - Opening HTML anchor tag, 2 - Closing HTML anchor tag.
+#: languages/aioseo-pro.php:1110
+msgid "Enhanced Search cannot be enabled on your website because there is a search query conflict. To learn more about this, %1$sclick here%2$s."
+msgstr ""
+
+#: languages/aioseo-pro.php:1113
+msgid "Enter \"0\" if you offer free shipping to this destination."
+msgstr ""
+
+#: languages/aioseo-pro.php:1116
+msgid "Enter a name for this template"
+msgstr ""
+
+#: languages/aioseo-pro.php:1119
+msgid "Enter a name for your custom schema graph..."
+msgstr ""
+
+#: languages/aioseo-pro.php:1122
+msgid "Enter a name for your schema graph..."
+msgstr ""
+
+#: languages/aioseo-pro.php:1125
+msgid "Enter one or multiple ISO 3166-2 subdivision codes for the states that you ship to. Currently, Google only supports the US, Australia, and Japan. Examples: \"NY\" (for US, state of New York), \"NSW\" (for Australia, state of New South Wales), or \"03\" (for Japan, Iwate prefecture)."
+msgstr ""
+
+#. Translators: 1 - The plugin name ("AIOSEO").
+#: languages/aioseo-pro.php:1129
+msgid "Enter one or multiple link prefixes that %1$s should consider as affiliate links, e.g. \"/go/\", \"/refer/\" or \"https://amazn.to\"."
+msgstr ""
+
+#: languages/aioseo-pro.php:1132
+msgid "Enter your JSON schema here..."
+msgstr ""
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: languages/aioseo-pro.php:1136
+msgid "Enter your license key below to activate %1$s!"
+msgstr ""
+
+#: languages/aioseo-pro.php:1139
+msgid "Entertainment App"
+msgstr ""
+
+#: languages/aioseo-pro.php:1142
+msgid "Errors"
+msgstr ""
+
+#: languages/aioseo-pro.php:1145
+msgid "Estimated Cost"
+msgstr ""
+
+#: languages/aioseo-pro.php:1148
+msgid "EU Energy Rating"
+msgstr ""
+
+#: languages/aioseo-pro.php:1151
+msgid "Event"
+msgstr ""
+
+#: languages/aioseo-pro.php:1159
+msgid "Exclude Posts / Pages"
+msgstr ""
+
+#: languages/aioseo-pro.php:1163
+msgid "Exclude Terms"
+msgstr ""
+
+#. Translators: 1 - The plural punctuation character name ("dashes" or "underscores").
+#: languages/aioseo-pro.php:1167
+msgid "Excluding %1$s is disabled when converting to spaces is enabled."
+msgstr ""
+
+#: languages/aioseo-pro.php:1170
+msgid "Expected"
+msgstr ""
+
+#: languages/aioseo-pro.php:1173
+msgid "Experience instead of Education"
+msgstr ""
+
+#: languages/aioseo-pro.php:1176
+msgid "Expiration Date"
+msgstr ""
+
+#. Translators: 1 - "NGINX".
+#: languages/aioseo-pro.php:1180
+msgid "Export %1$s config file"
+msgstr ""
+
+#. Translators: 1 - ".htaccess".
+#: languages/aioseo-pro.php:1184
+msgid "Export %1$s file"
+msgstr ""
+
+#: languages/aioseo-pro.php:1187
+msgid "Export 404 Logs"
+msgstr ""
+
+#: languages/aioseo-pro.php:1190
+msgid "Export All Redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:1193
+msgid "Export Redirect Logs"
+msgstr ""
+
+#: languages/aioseo-pro.php:1196
+msgid "Export Redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:1199
+msgid "Export to JSON, .htaccess or .nginx. The JSON format contains full information (and can be re-imported), while the other formats only contain partial information relavant to that format."
+msgstr ""
+
+#: languages/aioseo-pro.php:1208
+msgid "External"
+msgstr ""
+
+#: languages/aioseo-pro.php:1211
+msgid "Fact Check"
+msgstr ""
+
+#: languages/aioseo-pro.php:1217
+msgid "FAQ Options"
+msgstr ""
+
+#: languages/aioseo-pro.php:1221
+msgid "FAQ Page"
+msgstr ""
+
+#: languages/aioseo-pro.php:1225
+msgid "Fast Server Redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:1228
+msgid "Fax Number"
+msgstr ""
+
+#: languages/aioseo-pro.php:1231
+msgid "Feature Manager Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:1234
+msgid "filenames"
+msgstr ""
+
+#: languages/aioseo-pro.php:1237
+msgid "Filter by Group"
+msgstr ""
+
+#: languages/aioseo-pro.php:1240
+msgid "Finance App"
+msgstr ""
+
+#. Translators: 1 - A learn more link.
+#: languages/aioseo-pro.php:1244
+msgid "For a more seamless experience with rich information cards, we recommend that you enable the Maps Embed API for your Google Maps API Key. %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:1247
+msgid "Force a redirect from HTTP to HTTPS"
+msgstr ""
+
+#: languages/aioseo-pro.php:1250
+msgid "Forever"
+msgstr ""
+
+#: languages/aioseo-pro.php:1253
+msgid "Friday"
+msgstr ""
+
+#: languages/aioseo-pro.php:1256
+msgid "Full Logging"
+msgstr ""
+
+#: languages/aioseo-pro.php:1260
+msgid "Full Site Redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:1263
+msgid "Gender"
+msgstr ""
+
+#: languages/aioseo-pro.php:1266
+msgid "General SEO Settings:"
+msgstr ""
+
+#: languages/aioseo-pro.php:1269
+msgid "General Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:1272
+msgid "General Settings > Advanced"
+msgstr ""
+
+#. Translators: 1 - "Titles" or "Descriptions".
+#: languages/aioseo-pro.php:1277
+msgid "Generate %1$s"
+msgstr ""
+
+#. Translators: 1 - "SEO Title" or "Meta Description".
+#: languages/aioseo-pro.php:1282
+msgid "Generate %1$s Suggestions Using OpenAI"
+msgstr ""
+
+#. Translators: 1 - "Titles" or "Descriptions".
+#: languages/aioseo-pro.php:1287
+msgid "Generate New %1$s"
+msgstr ""
+
+#. Translators: 1 - "Title" or "Description".
+#: languages/aioseo-pro.php:1292
+msgid "Generate New SEO Post %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:1295
+msgid "Generate Schema"
+msgstr ""
+
+#. Translators: 1 - "SEO Title" or "Meta Description".
+#: languages/aioseo-pro.php:1300
+msgid "Get 5 AI-powered %1$s suggestions with just one click.%2$sNote: this action will count towards your API usage limit."
+msgstr ""
+
+#: languages/aioseo-pro.php:1305
+msgid "Get relevant suggestions for adding internal links to all your content as well as finding any orphaned posts that have no internal links."
+msgstr ""
+
+#: languages/aioseo-pro.php:1309
+msgid "Google Maps"
+msgstr ""
+
+#: languages/aioseo-pro.php:1314
+msgid "Google Maps API Key"
+msgstr ""
+
+#: languages/aioseo-pro.php:1317
+msgid "Group"
+msgstr ""
+
+#: languages/aioseo-pro.php:1320
+msgid "Gutenberg Block"
+msgstr ""
+
+#: languages/aioseo-pro.php:1326
+msgid "Hardcover"
+msgstr ""
+
+#: languages/aioseo-pro.php:1329
+msgid "Header"
+msgstr ""
+
+#: languages/aioseo-pro.php:1332
+msgid "Headers"
+msgstr ""
+
+#: languages/aioseo-pro.php:1338
+msgid "Headline"
+msgstr ""
+
+#: languages/aioseo-pro.php:1341
+msgid "Health App"
+msgstr ""
+
+#: languages/aioseo-pro.php:1344
+msgid "Here you can add words that should be stripped from the filename, separated by a new line."
+msgstr ""
+
+#: languages/aioseo-pro.php:1347
+msgid "Hiring Organization"
+msgstr ""
+
+#: languages/aioseo-pro.php:1351
+msgid "Hits"
+msgstr ""
+
+#: languages/aioseo-pro.php:1354
+msgid "Home App"
+msgstr ""
+
+#: languages/aioseo-pro.php:1357
+msgid "Home Page"
+msgstr ""
+
+#: languages/aioseo-pro.php:1361
+msgid "Hours"
+msgstr ""
+
+#: languages/aioseo-pro.php:1364
+msgid "How To"
+msgstr ""
+
+#: languages/aioseo-pro.php:1367
+msgid "HTTP Cache Header"
+msgstr ""
+
+#: languages/aioseo-pro.php:1370
+msgid "HTTP Headers"
+msgstr ""
+
+#: languages/aioseo-pro.php:1373
+msgid "Hybrid"
+msgstr ""
+
+#: languages/aioseo-pro.php:1376
+msgid "Identifier"
+msgstr ""
+
+#: languages/aioseo-pro.php:1379
+msgid "Identifiers"
+msgstr ""
+
+#: languages/aioseo-pro.php:1382
+msgid "IDs"
+msgstr ""
+
+#: languages/aioseo-pro.php:1385
+msgid "If the event can be attended for free, set the price to \"0\"."
+msgstr ""
+
+#: languages/aioseo-pro.php:1388
+msgid "If the service is available for free, set the price to \"0\"."
+msgstr ""
+
+#: languages/aioseo-pro.php:1391
+msgid "If the software is available for free, set the price to \"0\"."
+msgstr ""
+
+#: languages/aioseo-pro.php:1394
+msgid "If you don't know how to do that please revert your Redirect Method to PHP."
+msgstr ""
+
+#: languages/aioseo-pro.php:1397
+msgid "If you use Wistia in combination with a custom domain, set this to the domain name you use for your Wistia videos. Don't include https: or slashes as they are not needed."
+msgstr ""
+
+#: languages/aioseo-pro.php:1400
+msgid "Ignore Case"
+msgstr ""
+
+#: languages/aioseo-pro.php:1403
+msgid "Ignore Slash"
+msgstr ""
+
+#: languages/aioseo-pro.php:1420
+msgid "Image"
+msgstr ""
+
+#: languages/aioseo-pro.php:1423
+msgid "image captions"
+msgstr ""
+
+#: languages/aioseo-pro.php:1426
+msgid "Image SEO"
+msgstr ""
+
+#: languages/aioseo-pro.php:1429
+msgid "Images"
+msgstr ""
+
+#: languages/aioseo-pro.php:1433
+msgid "Import"
+msgstr ""
+
+#: languages/aioseo-pro.php:1436
+msgid "Import from a JSON file..."
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-pro.php:1440
+msgid "Import Redirects from %1$s File"
+msgstr ""
+
+#: languages/aioseo-pro.php:1443
+msgid "Import Redirects From Other Plugins"
+msgstr ""
+
+#: languages/aioseo-pro.php:1446
+msgid "Imported redirects will overwrite existing redirects and will not be merged."
+msgstr ""
+
+#: languages/aioseo-pro.php:1455
+msgid "Inbound Internal"
+msgstr ""
+
+#: languages/aioseo-pro.php:1458
+msgid "Inbound Internal Suggestions"
+msgstr ""
+
+#: languages/aioseo-pro.php:1461
+msgid "Include All Post Statuses"
+msgstr ""
+
+#: languages/aioseo-pro.php:1470
+msgid "Include All Post Types"
+msgstr ""
+
+#: languages/aioseo-pro.php:1473
+msgid "Include All Taxonomies"
+msgstr ""
+
+#: languages/aioseo-pro.php:1476
+msgid "Include business locations in site-wide search results. Users searching for street name, zip code or city will now also get your business location(s) in their search results."
+msgstr ""
+
+#: languages/aioseo-pro.php:1479
+msgid "Include Custom Fields"
+msgstr ""
+
+#: languages/aioseo-pro.php:1482
+msgid "Include Dates"
+msgstr ""
+
+#: languages/aioseo-pro.php:1485
+msgid "Ingredients"
+msgstr ""
+
+#: languages/aioseo-pro.php:1488
+msgid "Instruction"
+msgstr ""
+
+#: languages/aioseo-pro.php:1491
+msgid "Instructions"
+msgstr ""
+
+#. Translators: 1 - A learn more link.
+#: languages/aioseo-pro.php:1495
+msgid "Integrating with Google Maps will allow your users to find exactly where your business is located. Our interactive maps let them see your Google Reviews and get directions directly from your site. Create multiple maps for use with multiple locations. %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:1498
+msgid "Internal"
+msgstr ""
+
+#. Translators: 1 - The post title.
+#: languages/aioseo-pro.php:1502
+msgid "Internal Links & Suggestions for \"%1$s\""
+msgstr ""
+
+#: languages/aioseo-pro.php:1505
+msgid "IP Logging"
+msgstr ""
+
+#: languages/aioseo-pro.php:1508
+msgid "Is Family Friendly"
+msgstr ""
+
+#: languages/aioseo-pro.php:1511
+msgid "ISBN"
+msgstr ""
+
+#: languages/aioseo-pro.php:1515
+msgid "Item Page"
+msgstr ""
+
+#: languages/aioseo-pro.php:1518
+msgid "Job Posting"
+msgstr ""
+
+#: languages/aioseo-pro.php:1522
+msgid "Job Title"
+msgstr ""
+
+#: languages/aioseo-pro.php:1525
+msgid "Keyword Performance"
+msgstr ""
+
+#: languages/aioseo-pro.php:1529
+msgid "Keyword Positions"
+msgstr ""
+
+#: languages/aioseo-pro.php:1532
+msgid "Keyword Rankings"
+msgstr ""
+
+#: languages/aioseo-pro.php:1537
+msgid "Keywords"
+msgstr ""
+
+#: languages/aioseo-pro.php:1540
+msgid "Labels"
+msgstr ""
+
+#: languages/aioseo-pro.php:1543
+msgid "Last Accessed"
+msgstr ""
+
+#: languages/aioseo-pro.php:1546
+msgid "Last IP"
+msgstr ""
+
+#: languages/aioseo-pro.php:1549
+msgid "Latitude"
+msgstr ""
+
+#: languages/aioseo-pro.php:1552
+msgid "Learn more"
+msgstr ""
+
+#: languages/aioseo-pro.php:1556
+msgid "Learn more about Image SEO"
+msgstr ""
+
+#: languages/aioseo-pro.php:1560
+msgid "Learn more about Local SEO"
+msgstr ""
+
+#: languages/aioseo-pro.php:1564
+msgid "Learn more about News Sitemaps"
+msgstr ""
+
+#: languages/aioseo-pro.php:1567
+msgid "Learn more about using OpenAI with AIOSEO"
+msgstr ""
+
+#: languages/aioseo-pro.php:1571
+msgid "Learn more about Video Sitemaps"
+msgstr ""
+
+#: languages/aioseo-pro.php:1574
+msgid "Leave domain as-is"
+msgstr ""
+
+#. Translators: 1 - A link to "Search Appearance > Knowledge Graph".
+#: languages/aioseo-pro.php:1582
+msgid "Leave this empty if you want to use the Organization you've set under %1$s."
+msgstr ""
+
+#: languages/aioseo-pro.php:1585
+msgid "License"
+msgstr ""
+
+#: languages/aioseo-pro.php:1588
+msgid "License Key"
+msgstr ""
+
+#: languages/aioseo-pro.php:1591
+msgid "license key now"
+msgstr ""
+
+#: languages/aioseo-pro.php:1594
+msgid "Lifestyle App"
+msgstr ""
+
+#: languages/aioseo-pro.php:1598
+msgid "Link Assistant"
+msgstr ""
+
+#: languages/aioseo-pro.php:1601
+msgid "Link Assistant scans your website for links and suggestions in the background. Click the button below to start a scan and pull in your first results."
+msgstr ""
+
+#: languages/aioseo-pro.php:1604
+msgid "Link Assistant Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:1607
+msgid "Link Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:1613
+msgid "Link Suggestions"
+msgstr ""
+
+#: languages/aioseo-pro.php:1616
+msgid "Links"
+msgstr ""
+
+#. Translators: 1 - The post title.
+#: languages/aioseo-pro.php:1621
+msgid "Links & Suggestions for \"%1$s\""
+msgstr ""
+
+#: languages/aioseo-pro.php:1624
+msgid "Links Per Sitemap"
+msgstr ""
+
+#: languages/aioseo-pro.php:1628
+msgid "Links:"
+msgstr ""
+
+#: languages/aioseo-pro.php:1631
+msgid "List of custom field names to include as post content for tags and the SEO Page Analysis. Add one per line."
+msgstr ""
+
+#: languages/aioseo-pro.php:1634
+msgid "Loading Link Suggestions. Please wait..."
+msgstr ""
+
+#: languages/aioseo-pro.php:1637
+msgid "Loading Post Details. Please wait..."
+msgstr ""
+
+#: languages/aioseo-pro.php:1640
+msgid "Local business information may be displayed when users search for businesses on Google search or Google Maps. Google decides on a per search basis whether to display this information or not and it’s completely automated."
+msgstr ""
+
+#: languages/aioseo-pro.php:1643
+msgid "Local Business schema markup enables you to tell Google about your business, including your business name, address and phone number, opening hours and price range. This information may be displayed as a Knowledge Graph card or business carousel."
+msgstr ""
+
+#: languages/aioseo-pro.php:1646
+msgid "Local Business SEO"
+msgstr ""
+
+#: languages/aioseo-pro.php:1649
+msgid "Local SEO Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:1654
+msgid "Locality"
+msgstr ""
+
+#: languages/aioseo-pro.php:1660
+msgid "Location"
+msgstr ""
+
+#: languages/aioseo-pro.php:1663
+msgid "Location Categories"
+msgstr ""
+
+#: languages/aioseo-pro.php:1667
+msgid "Locations"
+msgstr ""
+
+#: languages/aioseo-pro.php:1670
+msgid "Locations Category Permalink"
+msgstr ""
+
+#: languages/aioseo-pro.php:1673
+msgid "Locations Permalink"
+msgstr ""
+
+#: languages/aioseo-pro.php:1676
+msgid "Locations Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:1679
+msgid "Log External Redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:1682
+msgid "Log HTTP Header Information"
+msgstr ""
+
+#: languages/aioseo-pro.php:1685
+msgid "Log IP Addresses"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-pro.php:1689
+msgid "Log redirects that happen on your site even if the redirect happened outside of %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:1692
+msgid "Logo"
+msgstr ""
+
+#: languages/aioseo-pro.php:1696
+msgid "Logs"
+msgstr ""
+
+#: languages/aioseo-pro.php:1699
+msgid "Longitude"
+msgstr ""
+
+#: languages/aioseo-pro.php:1702
+msgid "Lower Case"
+msgstr ""
+
+#: languages/aioseo-pro.php:1705
+msgid "Major words are capitalized and minor words remain in their original casing."
+msgstr ""
+
+#. Translators: 1 - A code snippet.
+#: languages/aioseo-pro.php:1709
+msgid "Make sure you include the following in your server configuration file: %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:1713
+msgid "Manage Redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:1718
+msgid "Map"
+msgstr ""
+
+#: languages/aioseo-pro.php:1721
+msgid "Map Preview"
+msgstr ""
+
+#: languages/aioseo-pro.php:1724
+msgid "Map Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:1727
+msgid "Material"
+msgstr ""
+
+#: languages/aioseo-pro.php:1730
+msgid "Maximum"
+msgstr ""
+
+#: languages/aioseo-pro.php:1733
+msgid "Maximum Age"
+msgstr ""
+
+#: languages/aioseo-pro.php:1736
+msgid "meta description"
+msgstr ""
+
+#: languages/aioseo-pro.php:1739
+msgid "Meta Description"
+msgstr ""
+
+#: languages/aioseo-pro.php:1742
+msgid "Minimum"
+msgstr ""
+
+#: languages/aioseo-pro.php:1745
+msgid "Minimum Age"
+msgstr ""
+
+#: languages/aioseo-pro.php:1761
+msgid "Minimum size: 112px x 112px, The image must be in JPG, PNG, GIF, SVG, or WEBP format."
+msgstr ""
+
+#: languages/aioseo-pro.php:1764
+msgid "Minutes"
+msgstr ""
+
+#: languages/aioseo-pro.php:1767
+msgid "Monday"
+msgstr ""
+
+#: languages/aioseo-pro.php:1770
+msgid "Monitor Trash"
+msgstr ""
+
+#: languages/aioseo-pro.php:1773
+msgid "Months of Experience"
+msgstr ""
+
+#: languages/aioseo-pro.php:1785
+msgid "Movie"
+msgstr ""
+
+#: languages/aioseo-pro.php:1788
+msgid "Multimedia App"
+msgstr ""
+
+#: languages/aioseo-pro.php:1791
+msgid "Multiple Locations"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO"), 2 - The plugin short name ("AIOSEO").
+#: languages/aioseo-pro.php:1795
+msgid "Multiple Locations feature is available only for %1$s Pro users. Upgrade to Pro and unlock all %2$s features!"
+msgstr ""
+
+#: languages/aioseo-pro.php:1798
+msgid "Music"
+msgstr ""
+
+#: languages/aioseo-pro.php:1801
+msgid "Music Album"
+msgstr ""
+
+#: languages/aioseo-pro.php:1804
+msgid "Music Group"
+msgstr ""
+
+#: languages/aioseo-pro.php:1825
+msgid "Name"
+msgstr ""
+
+#: languages/aioseo-pro.php:1829
+msgid "News Article"
+msgstr ""
+
+#: languages/aioseo-pro.php:1834
+msgid "News Sitemap Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:1837
+msgid "Nginx Redirects (.nginx)"
+msgstr ""
+
+#: languages/aioseo-pro.php:1840
+msgid "No pages or posts found with that title or ID. Try again!"
+msgstr ""
+
+#: languages/aioseo-pro.php:1843
+msgid "No posts have been crawled yet"
+msgstr ""
+
+#: languages/aioseo-pro.php:1861
+msgid "No, I changed my mind"
+msgstr ""
+
+#: languages/aioseo-pro.php:1864
+msgid "No, I changed my mind."
+msgstr ""
+
+#: languages/aioseo-pro.php:1870
+msgid "None"
+msgstr ""
+
+#: languages/aioseo-pro.php:1873
+msgid "not installed"
+msgstr ""
+
+#: languages/aioseo-pro.php:1876
+msgid "Number of Sentences to Skip at Beginning"
+msgstr ""
+
+#: languages/aioseo-pro.php:1879
+msgid "Numbers (0-9)"
+msgstr ""
+
+#: languages/aioseo-pro.php:1882
+msgid "Nutrition"
+msgstr ""
+
+#: languages/aioseo-pro.php:1885
+msgid "Object Cache"
+msgstr ""
+
+#: languages/aioseo-pro.php:1891
+msgid "Offer"
+msgstr ""
+
+#: languages/aioseo-pro.php:1894
+msgid "Offline"
+msgstr ""
+
+#: languages/aioseo-pro.php:1897
+msgid "Online"
+msgstr ""
+
+#: languages/aioseo-pro.php:1900
+msgid "Online + Offline"
+msgstr ""
+
+#: languages/aioseo-pro.php:1903
+msgid "Open 24/7"
+msgstr ""
+
+#: languages/aioseo-pro.php:1907
+msgid "Open 24h"
+msgstr ""
+
+#: languages/aioseo-pro.php:1910
+msgid "Open 24h label"
+msgstr ""
+
+#: languages/aioseo-pro.php:1913
+msgid "Open URL"
+msgstr ""
+
+#: languages/aioseo-pro.php:1918
+msgid "Opening Hours Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:1921
+msgid "Operating System"
+msgstr ""
+
+#: languages/aioseo-pro.php:1924
+msgid "Optimizing individual content for SEO is a low-hanging fruit of opportunity because it can often be done quickly and easily with a relatively small time investment. By making sure that each piece of content on your website is optimized for relevant keywords and follows best practices for on-page SEO, you can improve the visibility and ranking of that content in the search results. This can drive more traffic to your website and help you achieve better overall SEO results."
+msgstr ""
+
+#: languages/aioseo-pro.php:1929
+msgid "Organization"
+msgstr ""
+
+#: languages/aioseo-pro.php:1932
+msgid "Organize sitemap entries into distinct files in your sitemap. We recommend you enable this setting if your sitemap contains more than 1,000 URLs."
+msgstr ""
+
+#: languages/aioseo-pro.php:1935
+msgid "Organizer"
+msgstr ""
+
+#: languages/aioseo-pro.php:1938
+msgid "Other relevant terms for your recipe such as a season, a specific holiday or theme, or other descriptors. Don't enter the dish or cuisine type."
+msgstr ""
+
+#: languages/aioseo-pro.php:1941
+msgid "Our advanced 404 settings are not for everyone. While a 404 page may not seem like the best user experience, redirecting all your 404's may confuse your users who are looking for specific content. Instead it's always better to redirect content to real pages. If you're not sure what to do, just leave these settings off."
+msgstr ""
+
+#. Translators: 1 - Learn More link.
+#: languages/aioseo-pro.php:1946
+msgid "Our custom schema only works with the JSON-LD format. This gives a detailed description of what your page is all about. Search engines can then use this data to understand your site better and provide more relevant search results and rich snippets. %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:1950
+msgid "Our Redirection Manager allows you to easily create and manage redirects for your broken links to avoid confusing search engines and users, as well as losing valuable backlinks. It even automatically sends users and search engines from your old URLs to your new ones."
+msgstr ""
+
+#: languages/aioseo-pro.php:1953
+msgid "Outbound"
+msgstr ""
+
+#: languages/aioseo-pro.php:1964
+msgid "Outbound Internal"
+msgstr ""
+
+#: languages/aioseo-pro.php:1967
+msgid "Outbound Internal Suggestions"
+msgstr ""
+
+#: languages/aioseo-pro.php:1970
+msgid "Override the default template for breadcrumbs on your site using our easy-to-use template editor."
+msgstr ""
+
+#: languages/aioseo-pro.php:1973
+msgid "Page Analysis"
+msgstr ""
+
+#: languages/aioseo-pro.php:1976
+msgid "Paperback"
+msgstr ""
+
+#: languages/aioseo-pro.php:1979
+msgid "Pass through"
+msgstr ""
+
+#: languages/aioseo-pro.php:1982
+msgid "Paste your API key here"
+msgstr ""
+
+#: languages/aioseo-pro.php:1999
+msgid "Paste your image URL or select a new image"
+msgstr ""
+
+#: languages/aioseo-pro.php:2002
+msgid "Paste your license key here"
+msgstr ""
+
+#: languages/aioseo-pro.php:2005
+msgid "Path"
+msgstr ""
+
+#: languages/aioseo-pro.php:2008
+msgid "Pattern"
+msgstr ""
+
+#: languages/aioseo-pro.php:2011
+msgid "Pay Interval"
+msgstr ""
+
+#: languages/aioseo-pro.php:2014
+msgid "Pay Range"
+msgstr ""
+
+#: languages/aioseo-pro.php:2019
+msgid "Payment Info"
+msgstr ""
+
+#: languages/aioseo-pro.php:2022
+msgid "Payment Methods Accepted"
+msgstr ""
+
+#: languages/aioseo-pro.php:2025
+msgid "Performer"
+msgstr ""
+
+#: languages/aioseo-pro.php:2034
+msgid "Person"
+msgstr ""
+
+#: languages/aioseo-pro.php:2038
+msgid "Phone Number"
+msgstr ""
+
+#: languages/aioseo-pro.php:2041
+msgid "PHP"
+msgstr ""
+
+#: languages/aioseo-pro.php:2044
+msgid "PHP Code"
+msgstr ""
+
+#: languages/aioseo-pro.php:2051
+msgid "Phrase"
+msgstr ""
+
+#: languages/aioseo-pro.php:2054
+msgid "Phrases with Links"
+msgstr ""
+
+#: languages/aioseo-pro.php:2057
+msgid "Place ID"
+msgstr ""
+
+#: languages/aioseo-pro.php:2060
+msgid "Please add some post content before generating new suggestions."
+msgstr ""
+
+#: languages/aioseo-pro.php:2063
+msgid "Plural label"
+msgstr ""
+
+#: languages/aioseo-pro.php:2066
+msgid "Plus (+)"
+msgstr ""
+
+#: languages/aioseo-pro.php:2069
+msgid "Post Optimizations"
+msgstr ""
+
+#: languages/aioseo-pro.php:2072
+msgid "Post SEO Settings:"
+msgstr ""
+
+#: languages/aioseo-pro.php:2075
+msgid "Post Statuses"
+msgstr ""
+
+#: languages/aioseo-pro.php:2081
+msgid "Post Title"
+msgstr ""
+
+#: languages/aioseo-pro.php:2084
+msgid "Post Title / URL"
+msgstr ""
+
+#: languages/aioseo-pro.php:2092
+msgid "Post Types"
+msgstr ""
+
+#: languages/aioseo-pro.php:2098
+msgid "Postal Code"
+msgstr ""
+
+#: languages/aioseo-pro.php:2101
+msgid "Posts"
+msgstr ""
+
+#: languages/aioseo-pro.php:2104
+msgid "Pound (#)"
+msgstr ""
+
+#: languages/aioseo-pro.php:2107
+msgid "Preferred domain"
+msgstr ""
+
+#: languages/aioseo-pro.php:2110
+msgid "Preparation Time"
+msgstr ""
+
+#: languages/aioseo-pro.php:2114
+msgid "Press enter to create a keyword"
+msgstr ""
+
+#: languages/aioseo-pro.php:2117
+msgid "Press enter to create a postal code"
+msgstr ""
+
+#: languages/aioseo-pro.php:2120
+msgid "Press enter to create a state"
+msgstr ""
+
+#: languages/aioseo-pro.php:2123
+msgid "Press enter to create a supply"
+msgstr ""
+
+#: languages/aioseo-pro.php:2126
+msgid "Press enter to create a tool"
+msgstr ""
+
+#: languages/aioseo-pro.php:2129
+msgid "Press enter to create an alternative name"
+msgstr ""
+
+#: languages/aioseo-pro.php:2136
+msgid "Price"
+msgstr ""
+
+#: languages/aioseo-pro.php:2139
+msgid "Price Indicator"
+msgstr ""
+
+#: languages/aioseo-pro.php:2142
+msgid "Price Valid Until"
+msgstr ""
+
+#: languages/aioseo-pro.php:2148
+msgid "Priority Score"
+msgstr ""
+
+#: languages/aioseo-pro.php:2154
+msgid "Product"
+msgstr ""
+
+#: languages/aioseo-pro.php:2157
+msgid "Products and Product Categories will redirect to the shop page."
+msgstr ""
+
+#: languages/aioseo-pro.php:2160
+msgid "Profile Page"
+msgstr ""
+
+#: languages/aioseo-pro.php:2164
+msgid "Provider"
+msgstr ""
+
+#: languages/aioseo-pro.php:2169
+msgid "Publication Name"
+msgstr ""
+
+#: languages/aioseo-pro.php:2174
+msgid "Publish Date"
+msgstr ""
+
+#: languages/aioseo-pro.php:2177
+msgid "Purchase License"
+msgstr ""
+
+#: languages/aioseo-pro.php:2180
+msgid "Query Parameters"
+msgstr ""
+
+#: languages/aioseo-pro.php:2183
+msgid "Question"
+msgstr ""
+
+#: languages/aioseo-pro.php:2186
+msgid "Questions"
+msgstr ""
+
+#: languages/aioseo-pro.php:2189
+msgid "Rating"
+msgstr ""
+
+#: languages/aioseo-pro.php:2193
+msgid "Rating Maximum"
+msgstr ""
+
+#: languages/aioseo-pro.php:2197
+msgid "Rating Minimum"
+msgstr ""
+
+#: languages/aioseo-pro.php:2201
+msgid "Rating Value"
+msgstr ""
+
+#: languages/aioseo-pro.php:2204
+msgid "Real Estate Listing"
+msgstr ""
+
+#: languages/aioseo-pro.php:2210
+msgid "Recipe"
+msgstr ""
+
+#: languages/aioseo-pro.php:2213
+msgid "Reconnect"
+msgstr ""
+
+#: languages/aioseo-pro.php:2216
+msgid "redirect"
+msgstr ""
+
+#: languages/aioseo-pro.php:2220
+msgid "Redirect"
+msgstr ""
+
+#: languages/aioseo-pro.php:2223
+msgid "Redirect 404's to the Home Page"
+msgstr ""
+
+#: languages/aioseo-pro.php:2226
+msgid "Redirect 404's to the Parent Page or Parent Category"
+msgstr ""
+
+#: languages/aioseo-pro.php:2229
+msgid "Redirect Defaults"
+msgstr ""
+
+#: languages/aioseo-pro.php:2232
+msgid "Redirect from HTTP to HTTPS"
+msgstr ""
+
+#: languages/aioseo-pro.php:2235
+msgid "Redirect Logs"
+msgstr ""
+
+#: languages/aioseo-pro.php:2238
+msgid "Redirect Method"
+msgstr ""
+
+#: languages/aioseo-pro.php:2242
+msgid "Redirect Monitoring"
+msgstr ""
+
+#: languages/aioseo-pro.php:2245
+msgid "Redirect Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:2248
+msgid "Redirect Type"
+msgstr ""
+
+#: languages/aioseo-pro.php:2251
+msgid "Redirected By"
+msgstr ""
+
+#: languages/aioseo-pro.php:2255
+msgid "Redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:2258
+msgid "Redirects Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:2261
+msgid "Reference App"
+msgstr ""
+
+#: languages/aioseo-pro.php:2264
+msgid "Referrers"
+msgstr ""
+
+#: languages/aioseo-pro.php:2268
+msgid "Refresh"
+msgstr ""
+
+#: languages/aioseo-pro.php:2271
+msgid "Regex"
+msgstr ""
+
+#: languages/aioseo-pro.php:2276
+msgid "Region"
+msgstr ""
+
+#: languages/aioseo-pro.php:2279
+msgid "Release Date"
+msgstr ""
+
+#: languages/aioseo-pro.php:2282
+msgid "Relocate Site"
+msgstr ""
+
+#: languages/aioseo-pro.php:2285
+msgid "Relocate to domain"
+msgstr ""
+
+#: languages/aioseo-pro.php:2302
+msgid "Remove"
+msgstr ""
+
+#: languages/aioseo-pro.php:2305
+msgid "Remove www from domain"
+msgstr ""
+
+#: languages/aioseo-pro.php:2308
+msgid "Renew your license now"
+msgstr ""
+
+#: languages/aioseo-pro.php:2311
+msgid "Required Degree"
+msgstr ""
+
+#: languages/aioseo-pro.php:2314
+msgid "Required Time"
+msgstr ""
+
+#: languages/aioseo-pro.php:2317
+msgid "Requirements"
+msgstr ""
+
+#: languages/aioseo-pro.php:2320
+msgid "Reset Hits"
+msgstr ""
+
+#: languages/aioseo-pro.php:2323
+msgid "Response Code"
+msgstr ""
+
+#: languages/aioseo-pro.php:2326
+msgid "Result"
+msgstr ""
+
+#: languages/aioseo-pro.php:2331
+msgid "Review"
+msgstr ""
+
+#: languages/aioseo-pro.php:2335
+msgid "Review Rating"
+msgstr ""
+
+#: languages/aioseo-pro.php:2338
+msgid "Reviews"
+msgstr ""
+
+#: languages/aioseo-pro.php:2341
+msgid "Roadmap"
+msgstr ""
+
+#: languages/aioseo-pro.php:2344
+msgid "RSS Content"
+msgstr ""
+
+#: languages/aioseo-pro.php:2347
+msgid "Rules"
+msgstr ""
+
+#: languages/aioseo-pro.php:2350
+msgid "Salary"
+msgstr ""
+
+#: languages/aioseo-pro.php:2353
+msgid "Sale Start Date"
+msgstr ""
+
+#: languages/aioseo-pro.php:2356
+msgid "Same As"
+msgstr ""
+
+#: languages/aioseo-pro.php:2359
+msgid "Satellite"
+msgstr ""
+
+#: languages/aioseo-pro.php:2362
+msgid "Saturday"
+msgstr ""
+
+#: languages/aioseo-pro.php:2365
+msgid "Save as Template"
+msgstr ""
+
+#: languages/aioseo-pro.php:2368
+msgid "Save Changes"
+msgstr ""
+
+#: languages/aioseo-pro.php:2371
+msgid "Save Schema as Template"
+msgstr ""
+
+#: languages/aioseo-pro.php:2374
+msgid "Save Template"
+msgstr ""
+
+#: languages/aioseo-pro.php:2377
+msgid "Scan Now"
+msgstr ""
+
+#: languages/aioseo-pro.php:2381
+msgid "Schema (JSON-LD Format)"
+msgstr ""
+
+#: languages/aioseo-pro.php:2384
+msgid "Schema Catalog"
+msgstr ""
+
+#: languages/aioseo-pro.php:2387
+msgid "Schema Generator"
+msgstr ""
+
+#: languages/aioseo-pro.php:2390
+msgid "Schema In Use"
+msgstr ""
+
+#: languages/aioseo-pro.php:2393
+msgid "Schema Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:2396
+msgid "Schema Templates"
+msgstr ""
+
+#: languages/aioseo-pro.php:2399
+msgid "Schema Type"
+msgstr ""
+
+#: languages/aioseo-pro.php:2402
+msgid "Schema Validation"
+msgstr ""
+
+#: languages/aioseo-pro.php:2405
+msgid "Search Appearance"
+msgstr ""
+
+#: languages/aioseo-pro.php:2412
+msgid "Search Appearance > Knowledge Graph"
+msgstr ""
+
+#: languages/aioseo-pro.php:2415
+msgid "Search Appearance Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:2418
+msgid "Search Clicks"
+msgstr ""
+
+#: languages/aioseo-pro.php:2421
+msgid "Search Impressions"
+msgstr ""
+
+#: languages/aioseo-pro.php:2424
+msgid "Search Schema"
+msgstr ""
+
+#: languages/aioseo-pro.php:2427
+msgid "Search Statistics"
+msgstr ""
+
+#: languages/aioseo-pro.php:2430
+msgid "Search Templates"
+msgstr ""
+
+#: languages/aioseo-pro.php:2433
+msgid "Search URLs"
+msgstr ""
+
+#: languages/aioseo-pro.php:2436
+msgid "Security App"
+msgstr ""
+
+#: languages/aioseo-pro.php:2441
+msgid "See Affiliate Links"
+msgstr ""
+
+#. Translators: 1 - The amount of links, 2 - The type of link.
+#: languages/aioseo-pro.php:2447
+msgid "See All %1$s %2$s Links"
+msgstr ""
+
+#. Translators: 1 - The amount of suggestions, 2 - The type of suggestion.
+#: languages/aioseo-pro.php:2452
+msgid "See All %1$s %2$s Suggestions"
+msgstr ""
+
+#: languages/aioseo-pro.php:2457
+msgid "See Orphaned Posts"
+msgstr ""
+
+#: languages/aioseo-pro.php:2460
+msgid "Select a currency..."
+msgstr ""
+
+#: languages/aioseo-pro.php:2463
+msgid "Select a header"
+msgstr ""
+
+#: languages/aioseo-pro.php:2466
+msgid "Select a plugin..."
+msgstr ""
+
+#: languages/aioseo-pro.php:2469
+msgid "Select a price indicator..."
+msgstr ""
+
+#. Translators: 1 - The taxonomy singular name.
+#: languages/aioseo-pro.php:2473
+msgid "Select Primary %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:2476
+msgid "Select which Post Statuses you want to enable Link Assistant for."
+msgstr ""
+
+#: languages/aioseo-pro.php:2482
+msgid "Select which Post Types appear in your sitemap."
+msgstr ""
+
+#: languages/aioseo-pro.php:2485
+msgid "Select which Post Types you want to enable Link Assistant for."
+msgstr ""
+
+#: languages/aioseo-pro.php:2488
+msgid "Select which Taxonomies appear in your sitemap. Categories and Tags are excluded by default since these do not support video embedding."
+msgstr ""
+
+#: languages/aioseo-pro.php:2493
+msgid "Select your timezone"
+msgstr ""
+
+#: languages/aioseo-pro.php:2496
+msgid "Sentence Case"
+msgstr ""
+
+#: languages/aioseo-pro.php:2499
+msgid "SEO Analysis"
+msgstr ""
+
+#: languages/aioseo-pro.php:2503
+msgid "SEO Statistics"
+msgstr ""
+
+#: languages/aioseo-pro.php:2506
+msgid "SEO Title"
+msgstr ""
+
+#: languages/aioseo-pro.php:2509
+msgid "Server"
+msgstr ""
+
+#: languages/aioseo-pro.php:2515
+msgid "Service"
+msgstr ""
+
+#: languages/aioseo-pro.php:2518
+msgid "Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:2521
+msgid "Setup Wizard"
+msgstr ""
+
+#: languages/aioseo-pro.php:2524
+msgid "Shipping Destination"
+msgstr ""
+
+#: languages/aioseo-pro.php:2527
+msgid "Shipping Destinations"
+msgstr ""
+
+#: languages/aioseo-pro.php:2530
+msgid "Shopping App"
+msgstr ""
+
+#: languages/aioseo-pro.php:2533
+msgid "Shortcode"
+msgstr ""
+
+#: languages/aioseo-pro.php:2538
+msgid "Show Opening Hours"
+msgstr ""
+
+#: languages/aioseo-pro.php:2542
+msgid "Show or hide icons ( address, phone, fax, email )."
+msgstr ""
+
+#: languages/aioseo-pro.php:2545
+msgid "Show or hide labels ( ‘Address:’, ‘Phone:’, ‘Fax:’, ‘Email:’, etc )."
+msgstr ""
+
+#: languages/aioseo-pro.php:2548
+msgid "Show or hide the address."
+msgstr ""
+
+#: languages/aioseo-pro.php:2551
+msgid "Show or hide the business name."
+msgstr ""
+
+#: languages/aioseo-pro.php:2554
+msgid "Show or hide the email."
+msgstr ""
+
+#: languages/aioseo-pro.php:2557
+msgid "Show or hide the fax number."
+msgstr ""
+
+#: languages/aioseo-pro.php:2560
+msgid "Show or hide the friday hours."
+msgstr ""
+
+#: languages/aioseo-pro.php:2563
+msgid "Show or hide the icon."
+msgstr ""
+
+#: languages/aioseo-pro.php:2566
+msgid "Show or hide the label."
+msgstr ""
+
+#: languages/aioseo-pro.php:2569
+msgid "Show or hide the monday hours."
+msgstr ""
+
+#: languages/aioseo-pro.php:2572
+msgid "Show or hide the phone number."
+msgstr ""
+
+#: languages/aioseo-pro.php:2575
+msgid "Show or hide the saturday hours."
+msgstr ""
+
+#: languages/aioseo-pro.php:2578
+msgid "Show or hide the sunday hours."
+msgstr ""
+
+#: languages/aioseo-pro.php:2581
+msgid "Show or hide the Tax ID."
+msgstr ""
+
+#: languages/aioseo-pro.php:2584
+msgid "Show or hide the thursday hours."
+msgstr ""
+
+#: languages/aioseo-pro.php:2587
+msgid "Show or hide the title."
+msgstr ""
+
+#: languages/aioseo-pro.php:2590
+msgid "Show or hide the tuesday hours."
+msgstr ""
+
+#: languages/aioseo-pro.php:2593
+msgid "Show or hide the Vat ID."
+msgstr ""
+
+#: languages/aioseo-pro.php:2596
+msgid "Show or hide the wednesday hours."
+msgstr ""
+
+#: languages/aioseo-pro.php:2599
+msgid "Shows the location address appended to the search result."
+msgstr ""
+
+#: languages/aioseo-pro.php:2602
+msgid "Single label"
+msgstr ""
+
+#: languages/aioseo-pro.php:2605
+msgid "site"
+msgstr ""
+
+#: languages/aioseo-pro.php:2608
+msgid "Site"
+msgstr ""
+
+#: languages/aioseo-pro.php:2613
+msgid "Site Aliases"
+msgstr ""
+
+#: languages/aioseo-pro.php:2616
+msgid "Site aliases are disabled because you have relocated your site to another domain."
+msgstr ""
+
+#: languages/aioseo-pro.php:2619
+msgid "Site headers are added across your site, including redirects. Redirect headers are only added to redirects."
+msgstr ""
+
+#: languages/aioseo-pro.php:2622
+msgid "Sitemap Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:2625
+msgid "Sitemaps"
+msgstr ""
+
+#: languages/aioseo-pro.php:2628
+msgid "Size"
+msgstr ""
+
+#: languages/aioseo-pro.php:2631
+msgid "Slug is empty or is already taken. Please enter a different one."
+msgstr ""
+
+#: languages/aioseo-pro.php:2634
+msgid "Smart Slug Redirect"
+msgstr ""
+
+#: languages/aioseo-pro.php:2637
+msgid "Social Network App"
+msgstr ""
+
+#: languages/aioseo-pro.php:2640
+msgid "Social Networks"
+msgstr ""
+
+#: languages/aioseo-pro.php:2643
+msgid "Social Networks Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:2646
+msgid "Social Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:2649
+msgid "Software"
+msgstr ""
+
+#: languages/aioseo-pro.php:2654
+msgid "Software Application"
+msgstr ""
+
+#: languages/aioseo-pro.php:2658
+msgid "Source URL"
+msgstr ""
+
+#: languages/aioseo-pro.php:2661
+msgid "Spatial Coverage"
+msgstr ""
+
+#: languages/aioseo-pro.php:2664
+msgid "Sports App"
+msgstr ""
+
+#: languages/aioseo-pro.php:2667
+msgid "Start Date"
+msgstr ""
+
+#: languages/aioseo-pro.php:2671
+msgid "State"
+msgstr ""
+
+#: languages/aioseo-pro.php:2674
+msgid "States"
+msgstr ""
+
+#: languages/aioseo-pro.php:2677
+msgid "Status"
+msgstr ""
+
+#: languages/aioseo-pro.php:2680
+msgid "Step"
+msgstr ""
+
+#: languages/aioseo-pro.php:2683
+msgid "Steps"
+msgstr ""
+
+#: languages/aioseo-pro.php:2688
+msgid "Street Address"
+msgstr ""
+
+#: languages/aioseo-pro.php:2691
+msgid "Strip Punctuation"
+msgstr ""
+
+#: languages/aioseo-pro.php:2695
+msgid "Strip punctuation from image attributes"
+msgstr ""
+
+#: languages/aioseo-pro.php:2698
+msgid "Sub Dataset"
+msgstr ""
+
+#: languages/aioseo-pro.php:2701
+msgid "Sub Datasets"
+msgstr ""
+
+#: languages/aioseo-pro.php:2704
+msgid "Success! Your redirects have been imported."
+msgstr ""
+
+#: languages/aioseo-pro.php:2707
+msgid "Suggestions"
+msgstr ""
+
+#: languages/aioseo-pro.php:2710
+msgid "Summary"
+msgstr ""
+
+#: languages/aioseo-pro.php:2713
+msgid "Sunday"
+msgstr ""
+
+#: languages/aioseo-pro.php:2716
+msgid "Supplies"
+msgstr ""
+
+#: languages/aioseo-pro.php:2720
+msgid "Target URL"
+msgstr ""
+
+#: languages/aioseo-pro.php:2723
+msgid "Tax ID"
+msgstr ""
+
+#: languages/aioseo-pro.php:2727
+msgid "Taxonomies"
+msgstr ""
+
+#: languages/aioseo-pro.php:2730
+msgid "Temporal Coverage"
+msgstr ""
+
+#: languages/aioseo-pro.php:2733
+msgid "Terrain"
+msgstr ""
+
+#: languages/aioseo-pro.php:2736
+msgid "Test Redirect"
+msgstr ""
+
+#: languages/aioseo-pro.php:2739
+msgid "Test with Google"
+msgstr ""
+
+#: languages/aioseo-pro.php:2742
+msgid "The address label."
+msgstr ""
+
+#: languages/aioseo-pro.php:2745
+msgid "The alt tag attribute is used to display text that describes the image if it cannot be rendered by the browser. Its primary goal is to make images more accessible to visually impaired users, but it also used as a ranking factor by search engines."
+msgstr ""
+
+#. Translators: 1 - The plugin name ("AIOSEO").
+#: languages/aioseo-pro.php:2749
+msgid "The amount of sentences at the beginning of the article that %1$s should not suggest internal links for."
+msgstr ""
+
+#: languages/aioseo-pro.php:2752
+msgid "The API key you have entered is invalid. Please check your API key and try again."
+msgstr ""
+
+#: languages/aioseo-pro.php:2755
+msgid "The caption is usually a few lines of text that are displayed underneath an image to provide more context or explain what can be seen in the picture."
+msgstr ""
+
+#: languages/aioseo-pro.php:2758
+msgid "The Content Rankings report provides valuable insights into the performance of your content in search results and helps you optimize your posts for better results. This report is generated on a monthly basis, covering the past 12 months leading up to the current month. By regularly reviewing this report, you can identify trends in your post rankings and make informed decisions to improve your content's visibility and ultimately increase rankings in search results."
+msgstr ""
+
+#: languages/aioseo-pro.php:2761
+msgid "The Custom URL can be a Relative or Full URL."
+msgstr ""
+
+#: languages/aioseo-pro.php:2764
+msgid "The date until this pricing lasts (optional)."
+msgstr ""
+
+#: languages/aioseo-pro.php:2767
+msgid "The description is the text that is displayed on an image's attachment page"
+msgstr ""
+
+#: languages/aioseo-pro.php:2770
+msgid "The email label."
+msgstr ""
+
+#: languages/aioseo-pro.php:2773
+msgid "The fax label."
+msgstr ""
+
+#: languages/aioseo-pro.php:2776
+msgid "The file format of the download."
+msgstr ""
+
+#: languages/aioseo-pro.php:2779
+msgid "The filename is name of the image file when it is uploaded to the Media Library. The more descriptive and relevant the filename is, the more likely search engines will include in their results."
+msgstr ""
+
+#: languages/aioseo-pro.php:2782
+msgid "The first word of each sentence starts with a capital."
+msgstr ""
+
+#: languages/aioseo-pro.php:2785
+msgid "The following SEO Statistics graphs are useful metrics for understanding the visibility of your website or pages in search results and can help you identify trends or changes over time."
+msgstr ""
+
+#: languages/aioseo-pro.php:2788
+msgid "The following SEO Statistics graphs are useful metrics for understanding the visibility of your website or pages in search results and can help you identify trends or changes over time.<br /><br />Note: This data is capped at the top 100 keywords per day to speed up processing and to help you prioritize your SEO efforts, so while the data may seem inconsistent with Google Search Console, this is intentional."
+msgstr ""
+
+#: languages/aioseo-pro.php:2793
+msgid "The following shortcode attributes can be used to override the default settings:"
+msgstr ""
+
+#: languages/aioseo-pro.php:2798
+msgid "The function accepts an associative array with the following arguments that can be used to override the default settings:"
+msgstr ""
+
+#: languages/aioseo-pro.php:2801
+msgid "The geographic area where a service or offered item is provided."
+msgstr ""
+
+#: languages/aioseo-pro.php:2804
+msgid "The height of the map. You may use a percentage or a fixed height in pixels."
+msgstr ""
+
+#: languages/aioseo-pro.php:2808
+msgid "The Image SEO module is a premium feature that enables you to globally control the title, alt tag, caption, description and filename of the images on your site."
+msgstr ""
+
+#: languages/aioseo-pro.php:2811
+msgid "The ingredients and their amounts, e.g. \"3/4 cup sugar\"."
+msgstr ""
+
+#: languages/aioseo-pro.php:2815
+msgid "The label."
+msgstr ""
+
+#. Translators: 1 - Opening link tag. 2 - Closing link tag.
+#: languages/aioseo-pro.php:2819
+msgid "The license key provided has expired. Please %1$srenew your license%2$s to continue receiving automatic updates."
+msgstr ""
+
+#: languages/aioseo-pro.php:2822
+msgid "The license key provided is disabled. Please use a different key to continue receiving automatic updates."
+msgstr ""
+
+#: languages/aioseo-pro.php:2825
+msgid "The license key provided is invalid. Please use a different key to continue receiving automatic updates."
+msgstr ""
+
+#: languages/aioseo-pro.php:2829
+msgid "The Local SEO module is a premium feature that enables businesses to tell Google about their business, including their business name, address and phone number, opening hours and price range.  This information may be displayed as a Knowledge Graph card or business carousel in the search engine sidebar."
+msgstr ""
+
+#: languages/aioseo-pro.php:2832
+msgid "The name of the author of the fact check"
+msgstr ""
+
+#: languages/aioseo-pro.php:2835
+msgid "The name of the author who published the claim."
+msgstr ""
+
+#: languages/aioseo-pro.php:2838
+msgid "The name of the larger Data Catalog this dataset is a part of."
+msgstr ""
+
+#: languages/aioseo-pro.php:2841
+msgid "The name of the place or venue where the event is being held. Leave this empty if the event doesn't take place at a physical location."
+msgstr ""
+
+#: languages/aioseo-pro.php:2844
+msgid "The pattern of the product, such as \"polka dots\" or \"striped\", if applicable."
+msgstr ""
+
+#: languages/aioseo-pro.php:2847
+msgid "The phone label."
+msgstr ""
+
+#: languages/aioseo-pro.php:2850
+msgid "The region associated with the recipe, e.g. \"French\" or \"Mediterranean\" or \"American\"."
+msgstr ""
+
+#: languages/aioseo-pro.php:2853
+msgid "The specific coordinates where the measurements were collected."
+msgstr ""
+
+#: languages/aioseo-pro.php:2856
+msgid "The specific time interval this dataset covers."
+msgstr ""
+
+#: languages/aioseo-pro.php:2859
+msgid "The specifics of the required degree/certificate should be descriped in the description field above."
+msgstr ""
+
+#: languages/aioseo-pro.php:2862
+msgid "The supported operating systems, e.g. \"Windows 10\", \"OSX 10.6\", \"Android 9\""
+msgstr ""
+
+#: languages/aioseo-pro.php:2865
+msgid "The Tax ID label."
+msgstr ""
+
+#: languages/aioseo-pro.php:2868
+msgid "The text you've entered is not valid JSON. Please enter valid JSON schema."
+msgstr ""
+
+#: languages/aioseo-pro.php:2871
+msgid "The time (in minutes) it takes to cook the ingredients."
+msgstr ""
+
+#: languages/aioseo-pro.php:2874
+msgid "The time (in minutes) it takes to prepare the ingredients."
+msgstr ""
+
+#: languages/aioseo-pro.php:2877
+msgid "The title attribute is used to provide additional information about an image and can be viewed when you hover over the image."
+msgstr ""
+
+#: languages/aioseo-pro.php:2880
+msgid "The total number of calories per serving."
+msgstr ""
+
+#: languages/aioseo-pro.php:2883
+msgid "The type of dish, e.g. \"dinner\", \"main course\", \"dessert\" or \"snack\"."
+msgstr ""
+
+#: languages/aioseo-pro.php:2886
+msgid "The type of service that is being provided, e.g. delivery service, printing services, etc."
+msgstr ""
+
+#: languages/aioseo-pro.php:2889
+msgid "The URL of a reference web page that unambiguously indicates the dataset's identity."
+msgstr ""
+
+#: languages/aioseo-pro.php:2892
+msgid "The VAT ID label."
+msgstr ""
+
+#: languages/aioseo-pro.php:2895
+msgid "The width of the map. You may use a percentage or a fixed width in pixels."
+msgstr ""
+
+#: languages/aioseo-pro.php:2898
+msgid "There was an error connecting to the licensing API. Please try again later."
+msgstr ""
+
+#: languages/aioseo-pro.php:2901
+msgid "There was an error importing your redirects. Please make sure you are uploading the correct file or it is in the proper format."
+msgstr ""
+
+#: languages/aioseo-pro.php:2904
+msgid "These lists can be useful for understanding the performance of specific keywords and identifying opportunities for improvement. For example, the top winning keywords may be good candidates for further optimization or promotion, while the top losing keywords may need to be reevaluated and potentially modified or replaced.<br /><br />Note: This data is capped at the top 100 keywords per day to speed up processing and to help you prioritize your SEO efforts."
+msgstr ""
+
+#: languages/aioseo-pro.php:2908
+msgid "These lists can be useful for understanding the performance of specific pages or posts and identifying opportunities for improvement. For example, the top winning content may be good candidates for further optimization or promotion, while the top losing may need to be reevaluated and potentially updated."
+msgstr ""
+
+#: languages/aioseo-pro.php:2922
+msgid "This action cannot be undone."
+msgstr ""
+
+#. Translators: 1 - Plugin Short Name ("AIOSEO").
+#: languages/aioseo-pro.php:2926
+msgid "This action will disconnect %1$s from Google Search Console. By disconnecting from Google Search Console, you will no longer receive valuable insights on how your content is being discovered."
+msgstr ""
+
+#. Translators: 1 - Plugin Short Name ("AIOSEO"), 2 - Pro, 3 - Version Number ("1.0.0"), 4 - Addon name ("Redirects"), 5 - Version Number ("1.0.0").
+#: languages/aioseo-pro.php:2935
+msgid "This addon requires an update. %1$s %2$s requires a minimum version of %3$s for the %4$s addon. You currently have %5$s installed."
+msgstr ""
+
+#: languages/aioseo-pro.php:2938
+msgid "This allows you to monitor changes to post types and automatically add redirects based on URL changes. These will show up with a group called \"Modified Posts\"."
+msgstr ""
+
+#: languages/aioseo-pro.php:2941
+msgid "This defaults to your theme's content width, but if it's empty, setting a value here will make sure videos are embedded with the right width."
+msgstr ""
+
+#: languages/aioseo-pro.php:2945
+msgid "This graph is a visual representation of how well <strong>keywords are ranking in search results over time</strong> based on their position and average CTR. This can help you understand the performance of keywords and identify any trends or fluctuations."
+msgstr ""
+
+#: languages/aioseo-pro.php:2948
+msgid "This is a preview. To edit your map go to"
+msgstr ""
+
+#. Translators: 1 - Opening HTML anchor tag, 2 - Closing HTML anchor tag.
+#: languages/aioseo-pro.php:2952
+msgid "This is a preview. With Multiple Locations you may %1$sedit a map inside each location.%2$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:2955
+msgid "This license key has reached the maximum number of activations. Please deactivate it from another site or purchase a new license to continue receiving automatic updates."
+msgstr ""
+
+#: languages/aioseo-pro.php:2958
+msgid "This section allows you to manage your video embeds, such as features for Facebook or making them responsive to automatically fit your content width."
+msgstr ""
+
+#: languages/aioseo-pro.php:2961
+msgid "This table displays the performance of keywords that your site ranks for over time, including metrics such as impressions, click-through rate, and average position in search results. It allows for easy analysis of how keywords are performing and identification of any underperforming keywords that may need to be optimized or replaced."
+msgstr ""
+
+#: languages/aioseo-pro.php:2964
+msgid "Thumbnail URL"
+msgstr ""
+
+#: languages/aioseo-pro.php:2967
+msgid "Thursday"
+msgstr ""
+
+#: languages/aioseo-pro.php:2970
+msgid "Time Required"
+msgstr ""
+
+#: languages/aioseo-pro.php:2973
+msgid "Timezone"
+msgstr ""
+
+#: languages/aioseo-pro.php:2976
+msgid "title"
+msgstr ""
+
+#: languages/aioseo-pro.php:2982
+msgid "Title"
+msgstr ""
+
+#: languages/aioseo-pro.php:2985
+msgid "title attributes"
+msgstr ""
+
+#: languages/aioseo-pro.php:2988
+msgid "Title Case"
+msgstr ""
+
+#: languages/aioseo-pro.php:2991
+msgid "Title Wrapper"
+msgstr ""
+
+#: languages/aioseo-pro.php:2996
+msgid "Titles"
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-pro.php:3000
+msgid "To add this block, edit a page or post and search for the \"%1$s Local - Business Info\" block."
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO")
+#: languages/aioseo-pro.php:3004
+msgid "To add this block, edit a page or post and search for the \"%1$s Local - Map\" block."
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO")
+#: languages/aioseo-pro.php:3008
+msgid "To add this block, edit a page or post and search for the \"%1$s Local - Opening Hours\" block."
+msgstr ""
+
+#. Translators: 1 - Opening HTML link tag, 2 - Closing HTML link tag, 3 - The plugin short name ("AIOSEO").
+#: languages/aioseo-pro.php:3012
+msgid "To add this widget, visit the %1$swidgets page%2$s and look for the \"%3$s Local - Business Info\" widget."
+msgstr ""
+
+#. Translators: 1 - Opening HTML link tag, 2 - Closing HTML link tag, 3 - The plugin short name ("AIOSEO")
+#: languages/aioseo-pro.php:3016
+msgid "To add this widget, visit the %1$swidgets page%2$s and look for the \"%3$s Local - Map\" widget."
+msgstr ""
+
+#. Translators: 1 - Opening HTML link tag, 2 - Closing HTML link tag, 3 - The plugin short name ("AIOSEO").
+#: languages/aioseo-pro.php:3020
+msgid "To add this widget, visit the %1$swidgets page%2$s and look for the \"%3$s Local - Opening Hours\" widget."
+msgstr ""
+
+#: languages/aioseo-pro.php:3023
+msgid "tokens"
+msgstr ""
+
+#: languages/aioseo-pro.php:3028
+msgid "Tools"
+msgstr ""
+
+#: languages/aioseo-pro.php:3033
+msgid "Top Domain Reports"
+msgstr ""
+
+#: languages/aioseo-pro.php:3036
+msgid "Top Keywords"
+msgstr ""
+
+#: languages/aioseo-pro.php:3042
+msgid "Top Pages"
+msgstr ""
+
+#: languages/aioseo-pro.php:3048
+msgid "Travel App"
+msgstr ""
+
+#. Translators: 1 - "FitVids.js".
+#: languages/aioseo-pro.php:3055
+msgid "Try to make videos responsive using %1$s?"
+msgstr ""
+
+#: languages/aioseo-pro.php:3058
+msgid "Tuesday"
+msgstr ""
+
+#: languages/aioseo-pro.php:3075
+msgid "Type"
+msgstr ""
+
+#: languages/aioseo-pro.php:3079
+msgid "Type to enter a keyword..."
+msgstr ""
+
+#: languages/aioseo-pro.php:3082
+msgid "Type to enter a name for your template..."
+msgstr ""
+
+#: languages/aioseo-pro.php:3085
+msgid "Type to enter a postal code..."
+msgstr ""
+
+#: languages/aioseo-pro.php:3088
+msgid "Type to enter a state..."
+msgstr ""
+
+#: languages/aioseo-pro.php:3091
+msgid "Type to enter a supply..."
+msgstr ""
+
+#: languages/aioseo-pro.php:3094
+msgid "Type to enter a tool..."
+msgstr ""
+
+#: languages/aioseo-pro.php:3097
+msgid "Type to enter an alternative name..."
+msgstr ""
+
+#: languages/aioseo-pro.php:3101
+msgid "Underscores (_)"
+msgstr ""
+
+#: languages/aioseo-pro.php:3104
+msgid "Update Image SEO"
+msgstr ""
+
+#: languages/aioseo-pro.php:3107
+msgid "Update Link Assistant"
+msgstr ""
+
+#: languages/aioseo-pro.php:3110
+msgid "Update Local SEO"
+msgstr ""
+
+#: languages/aioseo-pro.php:3113
+msgid "Update News Sitemap"
+msgstr ""
+
+#: languages/aioseo-pro.php:3116
+msgid "Update Redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:3120
+msgid "Update Schema"
+msgstr ""
+
+#: languages/aioseo-pro.php:3124
+msgid "Update Template"
+msgstr ""
+
+#: languages/aioseo-pro.php:3127
+msgid "Update Video Sitemap"
+msgstr ""
+
+#: languages/aioseo-pro.php:3130
+msgid "Upload Date"
+msgstr ""
+
+#: languages/aioseo-pro.php:3147
+msgid "Upload or Select Image"
+msgstr ""
+
+#: languages/aioseo-pro.php:3158
+msgid "URL"
+msgstr ""
+
+#: languages/aioseo-pro.php:3161
+msgid "URLs"
+msgstr ""
+
+#: languages/aioseo-pro.php:3164
+msgid "Usage"
+msgstr ""
+
+#: languages/aioseo-pro.php:3167
+msgid "Use 24h format"
+msgstr ""
+
+#: languages/aioseo-pro.php:3170
+msgid "Use custom category slug"
+msgstr ""
+
+#: languages/aioseo-pro.php:3173
+msgid "Use custom slug"
+msgstr ""
+
+#: languages/aioseo-pro.php:3176
+msgid "Use Default Settings"
+msgstr ""
+
+#. Translators: 1 - Learn more link.
+#: languages/aioseo-pro.php:3180
+msgid "Use our powerful Schema Generator to configure Schema Markup for your content. Search Engines use structured data to better understand what your site is about as well as to display rich snippets in search results. %1$s"
+msgstr ""
+
+#. Translators: 1 - Opening HTML anchor tag, 2 - Closing HTML anchor tag.
+#: languages/aioseo-pro.php:3184
+msgid "Use the %1$sLocations%2$s Post Type in the menu on the left to start adding your locations."
+msgstr ""
+
+#. Translators: 1 - Learn more link.
+#: languages/aioseo-pro.php:3188
+msgid "Use the following PHP code anywhere in your theme to display the location info. %1$s"
+msgstr ""
+
+#. Translators: 1 - Learn more link.
+#: languages/aioseo-pro.php:3192
+msgid "Use the following PHP code anywhere in your theme to display the location map. %1$s"
+msgstr ""
+
+#. Translators: 1 - Learn more link.
+#: languages/aioseo-pro.php:3196
+msgid "Use the following PHP code anywhere in your theme to display the opening hours. %1$s"
+msgstr ""
+
+#. Translators: 1 - Learn more link.
+#: languages/aioseo-pro.php:3200
+msgid "Use the following shortcode to display the location info. %1$s"
+msgstr ""
+
+#. Translators: 1 - Learn more link.
+#: languages/aioseo-pro.php:3204
+msgid "Use the following shortcode to display the location map. %1$s"
+msgstr ""
+
+#. Translators: 1 - Learn more link.
+#: languages/aioseo-pro.php:3208
+msgid "Use the following shortcode to display the opening hours info. %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:3211
+msgid "Use the map below to set your exact location. Search for an address, select a business or click anywhere to place a marker."
+msgstr ""
+
+#: languages/aioseo-pro.php:3214
+msgid "Use the smart tags above to define your address format (used in blocks, widgets and shortcodes)."
+msgstr ""
+
+#: languages/aioseo-pro.php:3217
+msgid "Utilities App"
+msgstr ""
+
+#: languages/aioseo-pro.php:3220
+msgid "Validate Schema"
+msgstr ""
+
+#: languages/aioseo-pro.php:3223
+msgid "Value"
+msgstr ""
+
+#: languages/aioseo-pro.php:3226
+msgid "VAT ID"
+msgstr ""
+
+#: languages/aioseo-pro.php:3229
+msgid "Version"
+msgstr ""
+
+#: languages/aioseo-pro.php:3232
+msgid "Video"
+msgstr ""
+
+#: languages/aioseo-pro.php:3235
+msgid "Video Embed Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:3238
+msgid "Video Game App"
+msgstr ""
+
+#: languages/aioseo-pro.php:3241
+msgid "Video Sitemap Settings"
+msgstr ""
+
+#: languages/aioseo-pro.php:3244
+msgid "View"
+msgstr ""
+
+#: languages/aioseo-pro.php:3247
+msgid "Visibility"
+msgstr ""
+
+#: languages/aioseo-pro.php:3250
+msgid "Visit Site"
+msgstr ""
+
+#. Translators: 1 - Learn more link.
+#: languages/aioseo-pro.php:3254
+msgid "We cannot detect your web server. Server redirects are disabled. %1$s"
+msgstr ""
+
+#. Translators: 1 - The name of the plugin (e.g. "Yoast SEO"), 2 - The version of the plugin (e.g. "10.2.3").
+#: languages/aioseo-pro.php:3258
+msgid "We do not support importing from the currently installed version of %1$s (%2$s). Please upgrade to the latest version and try again."
+msgstr ""
+
+#: languages/aioseo-pro.php:3261
+msgid "We recommend setting the amount of URLs per sitemap index to 1,000 or less. The more links, the longer it will take for the sitemap to load."
+msgstr ""
+
+#: languages/aioseo-pro.php:3268
+msgid "Web Page"
+msgstr ""
+
+#: languages/aioseo-pro.php:3271
+msgid "Web Page Type"
+msgstr ""
+
+#: languages/aioseo-pro.php:3274
+msgid "Web Server"
+msgstr ""
+
+#: languages/aioseo-pro.php:3277
+msgid "Webmaster Tools"
+msgstr ""
+
+#: languages/aioseo-pro.php:3280
+msgid "Website"
+msgstr ""
+
+#: languages/aioseo-pro.php:3283
+msgid "Wednesday"
+msgstr ""
+
+#: languages/aioseo-pro.php:3286
+msgid "Whether the organization accepts experience in place of the educational qualifications."
+msgstr ""
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-pro.php:3290
+msgid "Whether your business has multiple locations, or just one, %1$s makes it easy to configure and display relevant information about your local business. You can use the custom-built tools below, or you can use the Locations custom post type (multiple locations only) to generate relevant and necessary information for search engines or for your customers."
+msgstr ""
+
+#: languages/aioseo-pro.php:3293
+msgid "Whoops! Your URL failed to redirect properly."
+msgstr ""
+
+#: languages/aioseo-pro.php:3296
+msgid "Widget"
+msgstr ""
+
+#: languages/aioseo-pro.php:3299
+msgid "Winning / Losing"
+msgstr ""
+
+#: languages/aioseo-pro.php:3302
+msgid "Wistia Domain"
+msgstr ""
+
+#: languages/aioseo-pro.php:3305
+msgid "With multiple locations, you will have a new menu item in your admin sidebar. By default, this menu item is labeled using the plural term of locations with each single item being called a location. If you like, you may enter custom labels to better match your business."
+msgstr ""
+
+#: languages/aioseo-pro.php:3308
+msgid "WooCommerce Support"
+msgstr ""
+
+#: languages/aioseo-pro.php:3311
+msgid "Woohoo! Your redirect worked perfectly!"
+msgstr ""
+
+#: languages/aioseo-pro.php:3314
+msgid "Words to Ignore"
+msgstr ""
+
+#: languages/aioseo-pro.php:3317
+msgid "Words to Strip"
+msgstr ""
+
+#: languages/aioseo-pro.php:3320
+msgid "Work from Home"
+msgstr ""
+
+#. Translators: 1 - "General Settings > Advanced".
+#: languages/aioseo-pro.php:3324
+msgid "Would you like to change your OpenAI API key? You can edit it under %1$s."
+msgstr ""
+
+#: languages/aioseo-pro.php:3327
+msgid "Would you like to relocate your entire site to a new domain? Everything will be redirected except WordPress login and admin. Enabling this option will disable any site aliases or canonical settings."
+msgstr ""
+
+#: languages/aioseo-pro.php:3330
+msgid "Write a question..."
+msgstr ""
+
+#: languages/aioseo-pro.php:3333
+msgid "Write an answer..."
+msgstr ""
+
+#: languages/aioseo-pro.php:3336
+msgid "Yes, I want to add all suggestions"
+msgstr ""
+
+#: languages/aioseo-pro.php:3339
+msgid "Yes, I want to add these suggestions"
+msgstr ""
+
+#: languages/aioseo-pro.php:3342
+msgid "Yes, I want to add this suggestion"
+msgstr ""
+
+#: languages/aioseo-pro.php:3345
+msgid "Yes, I want to close the Schema Generator"
+msgstr ""
+
+#: languages/aioseo-pro.php:3350
+msgid "Yes, I want to delete all links"
+msgstr ""
+
+#: languages/aioseo-pro.php:3355
+msgid "Yes, I want to delete these links"
+msgstr ""
+
+#: languages/aioseo-pro.php:3358
+msgid "Yes, I want to delete these redirects"
+msgstr ""
+
+#: languages/aioseo-pro.php:3361
+msgid "Yes, I want to delete this custom schema"
+msgstr ""
+
+#: languages/aioseo-pro.php:3364
+msgid "Yes, I want to delete this link"
+msgstr ""
+
+#: languages/aioseo-pro.php:3367
+msgid "Yes, I want to delete this record"
+msgstr ""
+
+#: languages/aioseo-pro.php:3370
+msgid "Yes, I want to delete this redirect"
+msgstr ""
+
+#: languages/aioseo-pro.php:3374
+msgid "Yes, I want to delete this schema"
+msgstr ""
+
+#: languages/aioseo-pro.php:3378
+msgid "Yes, I want to delete this template"
+msgstr ""
+
+#: languages/aioseo-pro.php:3381
+msgid "Yes, I want to disconnect."
+msgstr ""
+
+#: languages/aioseo-pro.php:3384
+msgid "Yes, I want to dismiss all suggestions"
+msgstr ""
+
+#: languages/aioseo-pro.php:3387
+msgid "Yes, I want to dismiss these suggestions"
+msgstr ""
+
+#: languages/aioseo-pro.php:3390
+msgid "Yes, I want to dismiss this suggestion"
+msgstr ""
+
+#: languages/aioseo-pro.php:3393
+msgid "Yes, I want to leave this page"
+msgstr ""
+
+#: languages/aioseo-pro.php:3396
+msgid "Yes, I want to switch"
+msgstr ""
+
+#. Translators: 1 - Opening strong tag, 2 - The authed site URL, 3 - Closing strong tag.
+#: languages/aioseo-pro.php:3400
+msgid "You are connected to %1$s%2$s%3$s."
+msgstr ""
+
+#. Translators: 1 - The plural post type name, 2 - Opening HTML link tag, 2 - Closing HTML link tag.
+#: languages/aioseo-pro.php:3404
+msgid "You are now editing the default schema graph for this post. You can change the default schema type for %1$s in the %2$sSearch Appearance%3$s settings."
+msgstr ""
+
+#. Translators: 1 - HTML Strong tag, 2 - HTML Strong tag.
+#: languages/aioseo-pro.php:3408
+msgid "You are using %1$sRegex%2$s for this redirect so you will need to manually add a URL to test."
+msgstr ""
+
+#: languages/aioseo-pro.php:3411
+msgid "You can choose to hide this block on the front-end of your site so that visitors won't see it but search engines will still see it."
+msgstr ""
+
+#: languages/aioseo-pro.php:3414
+msgid "You can enter one or multiple postal codes here if you only ship to certain parts of the country or if this rate only applies to specific postal codes. You cannot combine this together with states."
+msgstr ""
+
+#. Translators: 1 - The base URL with path, 2 - The path.
+#: languages/aioseo-pro.php:3418
+msgid "You can test redirects with a URL that includes your domain name ( %1$s ) or just the path ( %2$s )"
+msgstr ""
+
+#: languages/aioseo-pro.php:3421
+msgid "You can use this section to add any URLs to your sitemap which aren’t a part of your WordPress installation. For example, if you have a contact form that you would like to be included on your sitemap you can enter the information manually."
+msgstr ""
+
+#. Translators: 1 - The type of suggestion.
+#: languages/aioseo-pro.php:3426
+msgid "You currently don't have any %1$s Suggestions!"
+msgstr ""
+
+#: languages/aioseo-pro.php:3436
+msgid "You currently don't have permission to activate this addon. Please ask a site administrator to activate first."
+msgstr ""
+
+#: languages/aioseo-pro.php:3443
+msgid "You currently don't have permission to update this addon. Please ask a site administrator to update."
+msgstr ""
+
+#. Translators: 1 - Opening HTML link tag, 2 - Closing HTML link tag.
+#: languages/aioseo-pro.php:3447
+msgid "You exceeded your current quota, please %1$scheck your plan and billing details%2$s."
+msgstr ""
+
+#: languages/aioseo-pro.php:3450
+msgid "You have not added any schema yet. You can add any schema graphs you like via the Schema Generator below."
+msgstr ""
+
+#: languages/aioseo-pro.php:3453
+msgid "You must first enter a Google Maps API Key for this feature to work."
+msgstr ""
+
+#. Translators: 1 - Maps Embed API documentation link.
+#: languages/aioseo-pro.php:3457
+msgid "You selected a Place (from Google Places) but your Maps Embed API is not enabled. For a more seamless experience and rich information cards please enable it in your Google Project. %1$s"
+msgstr ""
+
+#. Translators: 1 - Opening link tag, 2 - Closing link tag.
+#: languages/aioseo-pro.php:3461
+msgid "You'll need to update your Site Address URL to match your new site address. %1$sUpdate Site Address URL%2$s."
+msgstr ""
+
+#. Translators: 1 - The plugin name ("All in One SEO"), 2 - Add license key text.
+#: languages/aioseo-pro.php:3465
+msgid "You're using %1$s but no license key has been entered. Add your %2$s."
+msgstr ""
+
+#. Translators: 1 - The plugin name ("All in One SEO"), 2 - Renew text.
+#: languages/aioseo-pro.php:3469
+msgid "You're using %1$s but your license has expired. %2$s."
+msgstr ""
+
+#: languages/aioseo-pro.php:3472
+msgid "You've added an autogenerated WooCommerce Product graph. Due to technical limitations, we are not able to generate the shipping details schema in the admin panel. To view this data, please inspect the source code of the page on the frontend."
+msgstr ""
+
+#. Translators: 1 - The type of license (Individual, Business, Agency).
+#: languages/aioseo-pro.php:3476
+msgid "Your %1$s plan is active!"
+msgstr ""
+
+#: languages/aioseo-pro.php:3479
+msgid "Your 404's will now be redirected by the URL slug."
+msgstr ""
+
+#: languages/aioseo-pro.php:3482
+msgid "Your 404's will now be redirected to the Custom URL below."
+msgstr ""
+
+#: languages/aioseo-pro.php:3485
+msgid "Your 404's will now be redirected to the Home Page. We'll still keep track of them in the 404 Logs."
+msgstr ""
+
+#: languages/aioseo-pro.php:3488
+msgid "Your 404's will now be redirected to their parent page or post. We'll still keep track of them in the 404 Logs."
+msgstr ""
+
+#. Translators: 1 - A learn more link.
+#: languages/aioseo-pro.php:3493
+msgid "Your API Key is invalid. Please make sure you have set your key correctly. %1$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:3496
+msgid "Your current marker"
+msgstr ""
+
+#: languages/aioseo-pro.php:3499
+msgid "Your current site address"
+msgstr ""
+
+#. Translators: 1 - WordPress Multisite.
+#: languages/aioseo-pro.php:3503
+msgid "Your license key has been set at the network level of your %1$s. If you would like to use a different license for this subsite, you can enter it below."
+msgstr ""
+
+#: languages/aioseo-pro.php:3506
+msgid "Your license key provides access to updates and addons."
+msgstr ""
+
+#. Translators: 1 - The type of license (Individual, Business, Agency), 2 - The expiration date of the license.
+#: languages/aioseo-pro.php:3510
+msgid "Your license level is %1$s %2$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:3513
+msgid "Your name or company name."
+msgstr ""
+
+#: languages/aioseo-pro.php:3517
+msgid "Your new site address"
+msgstr ""
+
+#: languages/aioseo-pro.php:3520
+msgid "Your old site address"
+msgstr ""
+
+#. Translators: 1 - Nginx/Apache, 2 - Learn more link.
+#: languages/aioseo-pro.php:3524
+msgid "Your redirect settings have been updated. In order for them to work properly you may need to reload your %1$s configuration. %2$s"
+msgstr ""
+
+#: languages/aioseo-pro.php:3527
+msgid "Your static sitemap is currently being regenerated. This may take some time based on the size of your site. This may also cause the sitemap content to look outdated."
+msgstr ""
+
+#: languages/aioseo-pro.php:3530
+msgid "Your Templates"
+msgstr ""
+
+#: languages/aioseo-pro.php:3533
+msgid "Zip Code"
+msgstr ""
+
+#: languages/aioseo-pro.php:3536
+msgid "Zoom"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block title"
+msgid "AIOSEO - HTML Sitemap"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block description"
+msgid "Displays a sitemap with your site's posts and terms."
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "html sitemap"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "link"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "menu"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "navigation"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "posts"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "posts list"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "posts sitemap"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "terms"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "terms list"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "terms sitemap"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "simple sitemap"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "sitemap"
+msgstr ""
+
+#: src/vue/standalone/blocks/html-sitemap/block.json
+msgctxt "block keyword"
+msgid "visual sitemap"
+msgstr ""

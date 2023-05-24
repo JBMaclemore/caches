@@ -1,0 +1,23 @@
+#buttonText{
+    min-width: 250px;
+}
+img{
+    float:left;
+}
+
+#customErrorMsg{
+    border-left: 4px solid;
+    padding: 12px;
+    margin: 0 0 20px;
+    
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+    border-left-color: #d63638; 
+}
+
+.metamaskImage{
+    width: 30%;
+    height: 30%;
+}
+
